@@ -50,7 +50,7 @@ body.movebg {
   .chinese{
     background-attachment: scroll;
     width: 100%;
-    animation-duration: 30s;
+    animation-duration: 20s;
   }
 }
 
@@ -75,7 +75,7 @@ body.movebg {
 @media (max-width: 768px) {
   body.movebg {
     animation-name: bgmotemb;
-    animation-duration: 30s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
   }
 
@@ -264,13 +264,13 @@ section.web-logo:before {
 @media (max-width: 768px) {
   section.web-logo {
     min-height: 98.4vh;
-    animation-duration: 30s;
+    animation-duration: 20s;
   }
 }
 
 @media (max-width: 768px) {
   section.web-logo:before {
-    animation-duration: 30s;
+    animation-duration: 20s;
   }
 }
 
@@ -310,7 +310,7 @@ section.web-logo:before {
   .logo-pic {
     margin-top: -40px;
     width: 90%;
-    animation-duration: 30s;
+    animation-duration: 20s;
   }
   .logo-pic-2 {
     width: 80%;
@@ -333,7 +333,7 @@ a.gallery-button {
 
 @media (max-width: 768px) {
   a.gallery-button {
-    animation-duration: 30s;
+    animation-duration: 20s;
   }
 }
 
@@ -502,7 +502,7 @@ section.gallery-section:before {
   section.gallery-section {
     background-attachment: scroll;
     width: 100%;
-    animation-duration: 30s;
+    animation-duration: 20s;
     margin-top: 8px;
   }
 }
@@ -510,7 +510,7 @@ section.gallery-section:before {
 @media (max-width: 768px) {
   section.gallery-section::before {
     animation-name: hrmonatedlogomb;
-    animation-duration: 30s;
+    animation-duration: 20s;
     font-size: 3rem;
     margin-left: 0;
     margin-right: 0;
@@ -1332,7 +1332,7 @@ img.moment-image-1{
     border-radius: 50%;
     margin-top: 30px;
     margin-bottom: 30px;
-    animation-duration: 30s;
+    animation-duration: 20s;
   }
 }
 
@@ -1413,14 +1413,14 @@ x:-o-prefocus, .hr-animated:after {
 @media (max-width: 768px) {
   .hr-animated {
     width: 100%;
-    animation-duration: 30s;
+    animation-duration: 20s;
   }
 }
 
 @media (max-width: 768px) {
   .hr-animated:after {
     width: 100%;
-    animation-duration: 30s;
+    animation-duration: 20s;
   }
 }
 
