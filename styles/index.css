@@ -54,21 +54,21 @@ body.movebg {
 }
 
 @keyframes bgcanva {
-  0%  {background-image: url(images/stars2.png); }
-  20%  {background-image: url(images/stars.webp); }
-  40%  {background-image: url(images/stars.webp); }
-  60%  {background-image: url(images/stars.webp); }
-  80%  {background-image: url(images/stars2.png); }
-  100%  {background-image: url(images/stars2.png); }
+  0%  {background-image: url(../images/bgs/webp/stars1.webp); }
+  20%  {background-image: url(../images/bgs/webp/stars.webp); }
+  40%  {background-image: url(../images/bgs/webp/stars.webp); }
+  60%  {background-image: url(../images/bgs/webp/stars.webp); }
+  80%  {background-image: url(../images/bgs/webp/stars1.webp); }
+  100%  {background-image: url(../images/bgs/webp/stars1.webp); }
 }
 
 @keyframes bgmote {
-  0%  {background-image: url(images/e1.png); }
-  20%  {background-image: url(images/e2.png); }
-  40%  {background-image: url(images/e2.png); }
-  60%  {background-image: url(images/e2.png); }
-  80%  {background-image: url(images/e1.png); }
-  100%  {background-image: url(images/e1.png); }
+  0%  {background-image: url(../images/bgs/webp/e1.webp); }
+  20%  {background-image: url(../images/bgs/webp/e2.webp); }
+  40%  {background-image: url(../images/bgs/webp/e2.webp); }
+  60%  {background-image: url(../images/bgs/webp/e2.webp); }
+  80%  {background-image: url(../images/bgs/webp/e1.webp); }
+  100%  {background-image: url(../images/bgs/webp/e1.webp); }
 }
 
 @media (max-width: 768px) {
@@ -79,12 +79,12 @@ body.movebg {
   }
 
   @keyframes bgmotemb {
-    0%  {background-image: url(images/f2.png);}
-    20%  {background-image: url(images/f1.png);}
-    40%  {background-image: url(images/f1.png);}
-    60%  {background-image: url(images/f1.png);}
-    80%  {background-image: url(images/f2.png);}
-    100%  {background-image: url(images/f2.png);}
+    0%  {background-image: url(../images/bgs/webp/f2.webp);}
+    20%  {background-image: url(../images/bgs/webp/f1.webp);}
+    40%  {background-image: url(../images/bgs/webp/f1.webp);}
+    60%  {background-image: url(../images/bgs/webp/f1.webp);}
+    80%  {background-image: url(../images/bgs/webp/f2.webp);}
+    100%  {background-image: url(../images/bgs/webp/f2.webp);}
   }
 
 }
@@ -234,13 +234,13 @@ section.web-logo:before {
 }
 
 @keyframes hrmonatedlogo-1 {
-  0%  {content: url(images/Moon.png); background-color:transparent; left: 50%; transform: translate(-50%,-43vh); opacity: 0;}
-  20%  {content: url(images/Moon.png); background-color:transparent; left: 50%; transform: translate(-50%,-43vh); box-shadow: 0px 0px 200px 100px rgba(225, 225, 225, .1); filter: drop-shadow(0px 0px 20px rgba(225, 225, 225, .5)); opacity: 1;}
-  40%  {content: url(images/Moon.png); background-color:transparent; left: 50%; transform: translate(-50%,-43vh); box-shadow: 0px 0px 200px 100px rgba(225, 225, 225, .1); filter: drop-shadow(0px 0px 20px rgba(225, 225, 225, .5)); opacity: 1;}
-  50%  {content: url(images/Moon.png); background-color:transparent; left: 50%; transform: translate(-50%,-43vh); box-shadow: 0px 0px 200px 100px rgba(225, 225, 225, .1); filter: drop-shadow(0px 0px 20px rgba(225, 225, 225, .5)); opacity: .1;}
-  60%  {content: url(images/sun.png); background-color:transparent; left: 50%; transform: translate(-50%,-43vh); opacity: 0;}
-  80%  {content: url(images/sun.png); background-color:transparent; left: 50%; transform: translate(-50%,-43vh); box-shadow: 0px 0px 200px 100px rgba(245, 222, 179, .3); filter: drop-shadow(0px 0px 20px rgba(245, 222, 179, .5)); opacity: 1;}
-  100% {content: url(images/sun.png); background-color:transparent; left: 50%; transform: translate(-50%,-43vh); box-shadow: 0px 0px 200px 100px rgba(245, 222, 179, .3); filter: drop-shadow(0px 0px 20px rgba(245, 222, 179, .5)); opacity: .1;}
+  0%  {content: url(../images/extras/webp/Moon.webp); background-color:transparent; left: 50%; transform: translate(-50%,-43vh); opacity: 0;}
+  20%  {content: url(../images/extras/webp/Moon.webp); background-color:transparent; left: 50%; transform: translate(-50%,-43vh); box-shadow: 0px 0px 200px 100px rgba(225, 225, 225, .1); filter: drop-shadow(0px 0px 20px rgba(225, 225, 225, .5)); opacity: 1;}
+  40%  {content: url(../images/extras/webp/Moon.webp); background-color:transparent; left: 50%; transform: translate(-50%,-43vh); box-shadow: 0px 0px 200px 100px rgba(225, 225, 225, .1); filter: drop-shadow(0px 0px 20px rgba(225, 225, 225, .5)); opacity: 1;}
+  50%  {content: url(../images/extras/webp/Moon.webp); background-color:transparent; left: 50%; transform: translate(-50%,-43vh); box-shadow: 0px 0px 200px 100px rgba(225, 225, 225, .1); filter: drop-shadow(0px 0px 20px rgba(225, 225, 225, .5)); opacity: .1;}
+  60%  {content: url(../images/extras/webp/sun.webp); background-color:transparent; left: 50%; transform: translate(-50%,-43vh); opacity: 0;}
+  80%  {content: url(../images/extras/webp/sun.webp); background-color:transparent; left: 50%; transform: translate(-50%,-43vh); box-shadow: 0px 0px 200px 100px rgba(245, 222, 179, .3); filter: drop-shadow(0px 0px 20px rgba(245, 222, 179, .5)); opacity: 1;}
+  100% {content: url(../images/extras/webp/sun.webp); background-color:transparent; left: 50%; transform: translate(-50%,-43vh); box-shadow: 0px 0px 200px 100px rgba(245, 222, 179, .3); filter: drop-shadow(0px 0px 20px rgba(245, 222, 179, .5)); opacity: .1;}
 }
 
 @keyframes galleryimg {
@@ -337,12 +337,12 @@ a.gallery-button {
 }
 
 @keyframes gallerybtn {
-  0%  {background-image: url(images/stars2.png); border: 1.5px solid transparent; color: white;}
-  20%  {background-image: url(images/stars.webp); border: 1.5px solid wheat; color: wheat; }
-  40%  {background-image: url(images/stars.webp); border: 1.5px solid wheat; color: wheat; }
-  60%  {background-image: url(images/stars.webp); border: 1.5px solid wheat; color: wheat; }
-  80%  {background-image: url(images/stars2.png); border: 1.5px solid transparent; color: white;}
-  100%  {background-image: url(images/stars2.png); border: 1.5px solid transparent; color: white;}
+  0%  {background-image: url(../images/bgs/webp/stars1.webp); border: 1.5px solid transparent; color: white;}
+  20%  {background-image: url(../images/bgs/webp/stars.webp); border: 1.5px solid wheat; color: wheat; }
+  40%  {background-image: url(../images/bgs/webp/stars.webp); border: 1.5px solid wheat; color: wheat; }
+  60%  {background-image: url(../images/bgs/webp/stars.webp); border: 1.5px solid wheat; color: wheat; }
+  80%  {background-image: url(../images/bgs/webp/stars1.webp); border: 1.5px solid transparent; color: white;}
+  100%  {background-image: url(../images/bgs/webp/stars1.webp); border: 1.5px solid transparent; color: white;}
 }
 
 a.gallery-button:hover {
@@ -477,22 +477,22 @@ section.gallery-section:before {
 }
 
 @keyframes gallerymote {
-  0%   {background-image: url(images/stars2.png);   background-repeat: no-repeat;
+  0%   {background-image: url(../images/bgs/webp/stars1.webp);   background-repeat: no-repeat;
     background-position: center top;
     background-size: cover; box-shadow:         inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);}
-  20%  {background-image: url(images/stars.webp);   background-repeat: no-repeat;
+  20%  {background-image: url(../images/bgs/webp/stars.webp);   background-repeat: no-repeat;
     background-position: center top;
     background-size: cover; box-shadow:         inset 0px 0px 120px 1px rgba(245, 222, 179, 0.30), 0 0 100px 1px rgba(245, 222, 179, .5);}
-  40%  {background-image: url(images/stars.webp);   background-repeat: no-repeat;
+  40%  {background-image: url(../images/bgs/webp/stars.webp);   background-repeat: no-repeat;
     background-position: center top;
     background-size: cover; box-shadow:         inset 0px 0px 120px 1px rgba(245, 222, 179, .3), 0 0 1000px 1px rgba(245, 222, 179, .25);}
-  60%  {background-image: url(images/stars.webp);   background-repeat: no-repeat;
+  60%  {background-image: url(../images/bgs/webp/stars.webp);   background-repeat: no-repeat;
     background-position: center top;
     background-size: cover; box-shadow:         inset 0px 0px 120px 1px rgba(245, 222, 179, 0.30), 0 0 100px 1px rgba(245, 222, 179, .5);}
-  80%  {background-image: url(images/stars2.png);   background-repeat: no-repeat;
+  80%  {background-image: url(../images/bgs/webp/stars1.webp);   background-repeat: no-repeat;
     background-position: center top;
     background-size: cover; box-shadow:         inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);}
-  100% {background-image: url(images/stars2.png);   background-repeat: no-repeat;
+  100% {background-image: url(../images/bgs/webp/stars1.webp);   background-repeat: no-repeat;
     background-position: center top;
     background-size: cover; box-shadow:         inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);}
 }
@@ -1475,7 +1475,7 @@ h3.wrapper-h3 {
 }
 
 @keyframes thumbworks {
-0%   {content: url("/images/placeholder600px.jpg"); opacity: 1;}
-25%  {content: url("/images/placeholder600px.jpg"); opacity: 50%;}
+0%   {content: url("../images/extras/webp/imageplaceholder600px.webp"); opacity: 1;}
+25%  {content: url("../images/extras/webp/imageplaceholder600px.webp"); opacity: 50%;}
 100% {display: none;}
 }
