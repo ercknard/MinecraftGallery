@@ -4,9 +4,9 @@
     "description": "The showcase of Ercknard's creative minecraft builds.",
     "icons": [
       {
-        "src": "../icons/logo.ico",
-        "sizes": "32x32",
-        "type": "image/png/ico"
+        "src": "../icons/logo32.png",
+        "sizes": "32x26",
+        "type": "image/png"
       }
 
     ],
