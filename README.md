@@ -1,1 +1,2 @@
-# MinecraftGallery
+# Minecraftgallery
+Minecraft Creative Gallery
