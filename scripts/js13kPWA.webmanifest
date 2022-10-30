@@ -1,0 +1,17 @@
+{
+    "name": "Ercknard Guren Gallery",
+    "short_name": "Web Gallery",
+    "description": "The showcase of Ercknard's creative minecraft builds.",
+    "icons": [
+      {
+        "src": "TheLogo.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      }
+
+    ],
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "theme_color": "#000000",
+    "background_color": "#000000"
+  }
