@@ -905,6 +905,7 @@ div.spanning {
   }
 }
 
+/*
 @media (max-width: 992px) {
   a.control {
     display: none;
@@ -922,6 +923,8 @@ div.spanning {
     display: none;
   }
 }
+
+*/
 
 h3.moments-comment {
   color: wheat;
