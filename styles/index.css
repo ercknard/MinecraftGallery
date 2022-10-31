@@ -54,7 +54,6 @@ body.movebg {
   }
 }
 
-/*
 @keyframes bgcanva {
   0%  {background-image: url(../images/bgs/webp/stars1.webp); }
   20%  {background-image: url(../images/bgs/webp/stars.webp); }
@@ -90,7 +89,6 @@ body.movebg {
   }
 
 }
-*/
 header.navigation {
   position: relative;
   margin: auto;
@@ -866,10 +864,14 @@ div.plaza-title-moments {
   padding: 25px;
   width: 100%;
   text-align: center;
-  border-width: 3px;
+  border-width: 2px;
   border-style: solid;
-  border-image: linear-gradient(to bottom, wheat, black) 1;
+  border-image: linear-gradient(to bottom, wheat, gray) 1;
   margin-bottom: 10px;
+  animation-name: plazatitle;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 /*
