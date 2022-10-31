@@ -1136,9 +1136,10 @@ h5 {
 }
 
 section.found-center-1 {
+  /*
   border-image: linear-gradient(to bottom, wheat, black) 1;
   border-width: 1px;
-  border-style: solid;
+  border-style: solid; */
   border-top: none;
   border-bottom: none;
 }
