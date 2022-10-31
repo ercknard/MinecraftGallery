@@ -823,11 +823,10 @@ img.logo-pic-elements {
 @media (max-width: 768px) {
   img.logo-pic-elements {
     width: 100%;
-    border-top: 2px solid wheat;
-    border-bottom: 2px solid wheat;
-    border-left: none;
-    border-right: none;
+    border: 2px solid wheat;
     box-shadow: 0 0 10px 3px wheat;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
 /*
