@@ -54,6 +54,7 @@ body.movebg {
   }
 }
 
+/*
 @keyframes bgcanva {
   0%  {background-image: url(../images/bgs/webp/stars1.webp); }
   20%  {background-image: url(../images/bgs/webp/stars.webp); }
@@ -89,7 +90,7 @@ body.movebg {
   }
 
 }
-
+*/
 header.navigation {
   position: relative;
   margin: auto;
