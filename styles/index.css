@@ -866,12 +866,13 @@ div.plaza-title-moments {
   padding: 25px;
   width: 100%;
   text-align: center;
-  background-color: black;
   border-width: 3px;
   border-style: solid;
   border-image: linear-gradient(to bottom, wheat, black) 1;
   margin-bottom: 10px;
 }
+
+/*
 
 div.plaza-title-moments:hover {
   opacity: .9;
@@ -880,11 +881,16 @@ div.plaza-title-moments:hover {
   border: 1px solid wheat;
 }
 
+*/
+
 @media (max-width: 768px) {
   div.plaza-title-moments {
+
+    /*
     box-shadow:         inset 0px 25px 25px rgba(245, 222, 179, 0.50);
     color: white;
     border: 1px solid wheat;
+    */
     padding: 18px;
   }
 }
@@ -983,7 +989,6 @@ img.nav-image {
   /* background: rgba(255, 255, 255, .1); */
   padding-bottom: 30px;
   border-top: 1px solid wheat;
-  border-bottom: 1px solid wheat;
 }
 
 .elements-1 {
