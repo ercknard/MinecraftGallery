@@ -286,7 +286,6 @@ section.web-logo:before {
 }
 
 .logo-pic {
-  width: 80%;
   animation-name: logomonate;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -306,10 +305,26 @@ section.web-logo:before {
   width: 60%;
 }
 
+@media (min-width: 1501px) {
+  .logo-pic {
+    margin-top: -40px;
+    width: 80%;
+    animation-duration: 20s;
+  }
+}
+
+@media (max-width: 1500px) {
+  .logo-pic {
+    margin-top: -40px;
+    max-width: 40vw;
+    animation-duration: 20s;
+  }
+}
+
 @media (max-width: 768px) {
   .logo-pic {
     margin-top: -40px;
-    width: 90%;
+    max-width: 80vw;
     animation-duration: 20s;
   }
   .logo-pic-2 {
