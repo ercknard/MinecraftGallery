@@ -892,12 +892,16 @@ img.nav-image {
   margin: 15px;
 }
 
+/*
+
 .elements-1-2:hover {
   opacity: .9;
   box-shadow:         inset 0px 25px 25px rgba(245, 222, 179, 0.50);
   color: white;
   border: 1px solid wheat;
 }
+
+*/
 
 @media (max-width: 768px) {
   .elements-1-2 {
