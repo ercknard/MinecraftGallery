@@ -232,7 +232,7 @@ section.web-logo:before {
 
 @media (max-width: 768px) {
   section.web-logo {
-    min-height: 98.4vh;
+    min-height: 99.5vh;
     animation-duration: 20s;
   }
 }
