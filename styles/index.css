@@ -441,19 +441,19 @@ section.gallery-section:before {
 
 @keyframes hrmonatedlogo {
   0%   {background-color:transparent; left: 2.5vw; transform: translate(-50%,-55%); opacity: 0;}
-  20%  {background-color:transparent; filter: drop-shadow(0px 2px 5px rgba(245, 222, 179, 1)); color:wheat; opacity: 1;}
-  40%  {background-color:transparent; filter: drop-shadow(0px 2px 5px rgba(245, 222, 179, 1)); color:wheat; opacity: 1;}
-  60%  {background-color:transparent; filter: drop-shadow(0px 2px 5px rgba(245, 222, 179, 1)); color:wheat; opacity: 1;}
-  80%  {background-color:transparent; opacity: 1;}
+  20%  {background-color:transparent; transform: translate(-50%,-55%); filter: drop-shadow(0px 2px 5px rgba(245, 222, 179, 1)); color:wheat; opacity: 1;}
+  40%  {background-color:transparent; transform: translate(-50%,-55%); filter: drop-shadow(0px 2px 5px rgba(245, 222, 179, 1)); color:wheat; opacity: 1;}
+  60%  {background-color:transparent; transform: translate(-50%,-55%); filter: drop-shadow(0px 2px 5px rgba(245, 222, 179, 1)); color:wheat; opacity: 1;}
+  80%  {background-color:transparent; transform: translate(-50%,-55%); opacity: 1;}
   100% {background-color:transparent; left: 97.5vw; transform: translate(-50%,-55%) rotate(360deg); opacity: 0;}
 }
 
 @keyframes hrmonatedlogomb {
   0%   {background-color:transparent; left: 5vw; transform: translate(-50%,-55%);  opacity: 0;}
-  20%  {background-color:transparent; filter: drop-shadow(0px 2px 5px rgba(245, 222, 179, 1)); color:wheat; opacity: 1;}
-  40%  {background-color:transparent; filter: drop-shadow(0px 2px 5px rgba(245, 222, 179, 1)); color:wheat; opacity: 1;}
-  60%  {background-color:transparent; filter: drop-shadow(0px 2px 5px rgba(245, 222, 179, 1)); color:wheat; opacity: 1;}
-  80%  {background-color:transparent; opacity: 1;}
+  20%  {background-color:transparent; transform: translate(-50%,-55%); filter: drop-shadow(0px 2px 5px rgba(245, 222, 179, 1)); color:wheat; opacity: 1;}
+  40%  {background-color:transparent; transform: translate(-50%,-55%); filter: drop-shadow(0px 2px 5px rgba(245, 222, 179, 1)); color:wheat; opacity: 1;}
+  60%  {background-color:transparent; transform: translate(-50%,-55%); filter: drop-shadow(0px 2px 5px rgba(245, 222, 179, 1)); color:wheat; opacity: 1;}
+  80%  {background-color:transparent; transform: translate(-50%,-55%); opacity: 1;}
   100% {background-color:transparent; left: 95vw; transform: translate(-50%,-55%) rotate(360deg);  opacity: 0;}
 }
 
