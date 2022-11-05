@@ -1242,6 +1242,7 @@ img.moment-image-1{
   animation-name: monopic;
   animation-duration: 15s;
   animation-iteration-count: infinite;
+  filter: brightness(80%);
 }
 
 @keyframes monopic {
