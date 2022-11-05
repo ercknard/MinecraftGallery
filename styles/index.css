@@ -63,12 +63,12 @@ body.movebg {
 }
 
 @keyframes bgmote {
-  0%  {background-image: url(../images/bgs/webp/e1.webp); }
-  20%  {background-image: url(../images/bgs/webp/e2.webp); }
-  40%  {background-image: url(../images/bgs/webp/e2.webp); }
-  60%  {background-image: url(../images/bgs/webp/e2.webp); }
-  80%  {background-image: url(../images/bgs/webp/e1.webp); }
-  100%  {background-image: url(../images/bgs/webp/e1.webp); }
+  0%  {background-image: url(../images/bgs/webp/e1.webp); filter: brightness(130%)}
+  20%  {background-image: url(../images/bgs/webp/e2.webp); filter: brightness(100%)}
+  40%  {background-image: url(../images/bgs/webp/e2.webp); filter: brightness(100%)}
+  60%  {background-image: url(../images/bgs/webp/e2.webp); filter: brightness(100%)}
+  80%  {background-image: url(../images/bgs/webp/e1.webp); filter: brightness(130%)}
+  100%  {background-image: url(../images/bgs/webp/e1.webp); filter: brightness(130%)}
 }
 
 @media (max-width: 768px) {
@@ -79,12 +79,12 @@ body.movebg {
   }
 
   @keyframes bgmotemb {
-    0%  {background-image: url(../images/bgs/webp/f2.webp);}
-    20%  {background-image: url(../images/bgs/webp/f1.webp);}
-    40%  {background-image: url(../images/bgs/webp/f1.webp);}
-    60%  {background-image: url(../images/bgs/webp/f1.webp);}
-    80%  {background-image: url(../images/bgs/webp/f2.webp);}
-    100%  {background-image: url(../images/bgs/webp/f2.webp);}
+    0%  {background-image: url(../images/bgs/webp/f2.webp); filter: brightness(110%)}
+    20%  {background-image: url(../images/bgs/webp/f1.webp); filter: brightness(100%)}
+    40%  {background-image: url(../images/bgs/webp/f1.webp); filter: brightness(100%)}
+    60%  {background-image: url(../images/bgs/webp/f1.webp); filter: brightness(100%)}
+    80%  {background-image: url(../images/bgs/webp/f2.webp); filter: brightness(110%)}
+    100%  {background-image: url(../images/bgs/webp/f2.webp); filter: brightness(110%)}
   }
 
 }
@@ -501,8 +501,8 @@ div.plaza-title {
   margin-left: auto;
   margin-right: auto;
   color: wheat;
-  padding: 25px;
-  width: 500px;
+  width: 100%;
+  padding: 20px;
   text-align: center;
   border-width: 3px;
   border-style: solid;
@@ -779,7 +779,7 @@ div.plaza-title-moments {
   margin-left: auto;
   margin-right: auto;
   color: wheat;
-  padding: 25px;
+  padding: 20px;
   width: 100%;
   text-align: center;
   border-width: 2px;
@@ -1252,9 +1252,10 @@ img.moment-image-1{
   color: wheat;
   padding: 25px;
   text-align: center;
+  /*
   border-width: 3px;
   border-style: solid;
-  border-image: linear-gradient(to bottom, wheat, black) 1;
+  border-image: linear-gradient(to bottom, wheat, black) 1; */
   margin-bottom: 10px;
   width: 100%;
 }
