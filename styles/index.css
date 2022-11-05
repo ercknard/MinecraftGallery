@@ -790,7 +790,7 @@ img.logo-pic-elements {
 
 @media (min-width: 1601px) {
   img.logo-pic-elements {
-    width: 57%;
+    width: 55%;
   }
 }
 
@@ -981,7 +981,7 @@ span.main-images-1 {
   box-shadow: 0 10px 20px rgba(245, 222, 179, 1);
   margin-top: 5px;
   margin-bottom: 10px;
-  width: 100%;
+  width: 80%;
 }
 
 @media (max-width: 768px) {
@@ -1410,6 +1410,7 @@ h3.wrapper-h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .prevs, .nexts {
