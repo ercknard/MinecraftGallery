@@ -47,7 +47,8 @@ body.movebg {
 
 @media (max-width: 768px) {
   .chinese{
-    background-attachment: scroll;
+    background-position: center top;
+    background-size: cover;
     width: 100%;
     animation-duration: 20s;
   }
@@ -79,12 +80,12 @@ body.movebg {
   }
 
   @keyframes bgmotemb {
-    0%  {background-image: url(../images/bgs/webp/stars1.webp);}
-    20%  {background-image: url(../images/bgs/webp/stars.webp);}
-    40%  {background-image: url(../images/bgs/webp/stars.webp);}
-    60%  {background-image: url(../images/bgs/webp/stars.webp);}
-    80%  {background-image: url(../images/bgs/webp/stars1.webp);}
-    100%  {background-image: url(../images/bgs/webp/stars1.webp);}
+    0%  {background-image: url(../images/bgs/webp/f2.webp);}
+    20%  {background-image: url(../images/bgs/webp/f1.webp);}
+    40%  {background-image: url(../images/bgs/webp/f1.webp);}
+    60%  {background-image: url(../images/bgs/webp/f1.webp);}
+    80%  {background-image: url(../images/bgs/webp/f2.webp);}
+    100%  {background-image: url(../images/bgs/webp/f2.webp);}
   }
 
 }
@@ -97,12 +98,12 @@ body.movebg {
   }
 
   @keyframes bgcanvamb {
-    0%  {background-image: url(../images/bgs/webp/f2.webp);}
-    20%  {background-image: url(../images/bgs/webp/f1.webp);}
-    40%  {background-image: url(../images/bgs/webp/f1.webp);}
-    60%  {background-image: url(../images/bgs/webp/f1.webp);}
-    80%  {background-image: url(../images/bgs/webp/f2.webp);}
-    100%  {background-image: url(../images/bgs/webp/f2.webp);}
+    0%  {background-image: url(../images/bgs/webp/stars1.webp);}
+    20%  {background-image: url(../images/bgs/webp/stars.webp);}
+    40%  {background-image: url(../images/bgs/webp/stars.webp);}
+    60%  {background-image: url(../images/bgs/webp/stars.webp);}
+    80%  {background-image: url(../images/bgs/webp/stars1.webp);}
+    100%  {background-image: url(../images/bgs/webp/stars1.webp);}
   }
 
 }
