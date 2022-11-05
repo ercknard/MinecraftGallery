@@ -849,7 +849,7 @@ img.logo-pic-elements {
   border: 1px solid wheat;
   box-shadow: 0 0 25px 2px wheat;
   margin: 0;
-  margin-top: 8rem;
+  margin-top: 4rem;
   margin-bottom: 40px;
 }
 
@@ -858,14 +858,12 @@ img.logo-pic-elements {
     width: 100%;
     border: 2px solid wheat;
     box-shadow: 0 0 10px 3px wheat;
-    margin-top: 20px;
     margin-bottom: 20px;
   }
 }
 
 @media (max-width: 1600px) {
   img.logo-pic-elements {
-    margin-top: 5rem;
     width: 90%;
   }
 }
