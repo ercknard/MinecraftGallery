@@ -509,12 +509,13 @@ div.plaza-title {
   border-image: linear-gradient(to bottom, wheat, gray) 1;
   margin-bottom: 10px;
   border-top: none;
+  /*
   animation-name: plazatitle;
   animation-duration: 15s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: linear; */
 }
-
+/*
 @keyframes plazatitle {
 0%   {box-shadow:         inset 0px 25px 50px rgba(245, 222, 179, 0.1);}
 20%  {color: white; background: linear-gradient(to right, rgba(229, 172, 142, 0), rgba(245, 222, 179, 0.1), rgba(229, 172, 142, 0));}
@@ -523,7 +524,7 @@ div.plaza-title {
 80% {box-shadow:         inset 0px -25px 20px rgba(245, 222, 179, 0.1);}
 100%   {box-shadow:         inset 0px 25px 50px rgba(245, 222, 179, 0.1);}
 }
-
+*/
 @media (max-width: 768px) {
   div.plaza-title {
     width: 100%;
