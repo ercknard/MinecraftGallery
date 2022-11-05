@@ -824,13 +824,6 @@ h1.controls {
   color: wheat;
 }
 
-div.spanning {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-  justify-content: center;
-}
-
 @media (max-width: 768px) {
   a.control {
     display: none;
@@ -1411,4 +1404,34 @@ h3.wrapper-h3 {
 0%   {content: url("../images/extras/webp/imageplaceholder600px.webp"); opacity: 1;}
 25%  {content: url("../images/extras/webp/imageplaceholder600px.webp"); opacity: 50%;}
 100% {display: none;}
+}
+
+.spanning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prevs, .nexts {
+  cursor: pointer;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+.prevs {
+  border-radius: 3px 0 0 3px;
+}
+
+.nexts {
+  border-radius: 0 3px 3px 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prevs:hover, .nexts:hover {
+  background-color: wheat;
+  color: black;
 }
