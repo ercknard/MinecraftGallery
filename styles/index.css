@@ -54,21 +54,21 @@ body.movebg {
 }
 
 @keyframes bgcanva {
-  0%  {background-image: url(../images/bgs/webp/stars1.webp); }
-  20%  {background-image: url(../images/bgs/webp/stars.webp); }
-  40%  {background-image: url(../images/bgs/webp/stars.webp); }
-  60%  {background-image: url(../images/bgs/webp/stars.webp); }
-  80%  {background-image: url(../images/bgs/webp/stars1.webp); }
-  100%  {background-image: url(../images/bgs/webp/stars1.webp); }
+  0%  {background-image: url(../images/bgs/webp/stars1.webp); filter: brightness(120%)}
+  20%  {background-image: url(../images/bgs/webp/stars.webp); filter: brightness(100%)}
+  40%  {background-image: url(../images/bgs/webp/stars.webp); filter: brightness(100%)}
+  60%  {background-image: url(../images/bgs/webp/stars.webp); filter: brightness(100%)}
+  80%  {background-image: url(../images/bgs/webp/stars1.webp); filter: brightness(120%)}
+  100%  {background-image: url(../images/bgs/webp/stars1.webp); filter: brightness(120%)}
 }
 
 @keyframes bgmote {
-  0%  {background-image: url(../images/bgs/webp/e1.webp); filter: brightness(130%)}
+  0%  {background-image: url(../images/bgs/webp/e1.webp); filter: brightness(120%)}
   20%  {background-image: url(../images/bgs/webp/e2.webp); filter: brightness(100%)}
   40%  {background-image: url(../images/bgs/webp/e2.webp); filter: brightness(100%)}
   60%  {background-image: url(../images/bgs/webp/e2.webp); filter: brightness(100%)}
-  80%  {background-image: url(../images/bgs/webp/e1.webp); filter: brightness(130%)}
-  100%  {background-image: url(../images/bgs/webp/e1.webp); filter: brightness(130%)}
+  80%  {background-image: url(../images/bgs/webp/e1.webp); filter: brightness(120%)}
+  100%  {background-image: url(../images/bgs/webp/e1.webp); filter: brightness(120%)}
 }
 
 @media (max-width: 768px) {
@@ -79,12 +79,12 @@ body.movebg {
   }
 
   @keyframes bgmotemb {
-    0%  {background-image: url(../images/bgs/webp/f2.webp); filter: brightness(110%)}
-    20%  {background-image: url(../images/bgs/webp/f1.webp); filter: brightness(100%)}
-    40%  {background-image: url(../images/bgs/webp/f1.webp); filter: brightness(100%)}
-    60%  {background-image: url(../images/bgs/webp/f1.webp); filter: brightness(100%)}
-    80%  {background-image: url(../images/bgs/webp/f2.webp); filter: brightness(110%)}
-    100%  {background-image: url(../images/bgs/webp/f2.webp); filter: brightness(110%)}
+    0%  {background-image: url(../images/bgs/webp/f2.webp);}
+    20%  {background-image: url(../images/bgs/webp/f1.webp);}
+    40%  {background-image: url(../images/bgs/webp/f1.webp);}
+    60%  {background-image: url(../images/bgs/webp/f1.webp);}
+    80%  {background-image: url(../images/bgs/webp/f2.webp);}
+    100%  {background-image: url(../images/bgs/webp/f2.webp);}
   }
 
 }
