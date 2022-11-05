@@ -429,6 +429,7 @@ div.width-section {
 }
 
 section.gallery-section {
+  margin-top: -15em;
   background-attachment: fixed;
   border-top-width: 1px;
   border-top: solid wheat;
@@ -444,7 +445,45 @@ section.gallery-section {
   overflow: visible;
 }
 
+@media (max-width: 768px) {
+  section.gallery-section {
+    margin-top: -7.5em;
+  }
+}
+
 section.gallery-section:before {
+  content: "✵";
+  color: wheat;
+  display: inline;
+  background-color: black;
+  font-size: 4rem;
+  animation-name: hrmonatedlogo;
+  animation-timing-function: ease;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+}
+
+section.gallery-section-1 {
+  background-attachment: fixed;
+  border-top-width: 1px;
+  border-top: solid wheat;
+  -webkit-box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.40);
+  -moz-box-shadow:    inset 0px 0px 100px 1px rgba(245, 222, 179, 0.40);
+  box-shadow:         inset 0px 0px 100px 1px rgba(245, 222, 179, 0.40);
+  padding-bottom: 10px;
+  border-bottom-width: 1px;
+  border-bottom: solid wheat;
+  animation-name: gallerymote;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  overflow: visible;
+}
+
+section.gallery-section-1:before {
   content: "✵";
   color: wheat;
   display: inline;
@@ -516,7 +555,24 @@ section.gallery-section:before {
   }
 }
 
-div.plaza-title {
+@media (max-width: 768px) {
+  section.gallery-section-1 {
+    width: 100%;
+    animation-duration: 20s;
+  }
+}
+
+@media (max-width: 768px) {
+  section.gallery-section-1::before {
+    animation-name: hrmonatedlogomb;
+    animation-duration: 20s;
+    font-size: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+div.plaza-title-1 {
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -535,6 +591,32 @@ div.plaza-title {
   animation-iteration-count: infinite;
   animation-timing-function: linear; */
 }
+
+div.plaza-title {
+  margin-top: 14em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  color: wheat;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, wheat, gray) 1;
+  margin-bottom: 10px;
+  /*
+  animation-name: plazatitle;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; */
+}
+
+@media (max-width: 768px) {
+  div.plaza-title {
+    margin-top: 7em;
+  }
+}
 /*
 @keyframes plazatitle {
 0%   {box-shadow:         inset 0px 25px 50px rgba(245, 222, 179, 0.1);}
@@ -551,7 +633,6 @@ div.plaza-title {
     color: white;
     border-image: linear-gradient(to bottom, wheat, gray) 1;
     border-width: 2px;
-    border-top: none;
     padding: 18px;
   }
 }
