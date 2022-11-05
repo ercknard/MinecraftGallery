@@ -37,6 +37,8 @@ body.movebg {
 
 .chinese {
   background-color: black;
+  background-position: center top;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   animation-name: bgcanva;
@@ -47,8 +49,6 @@ body.movebg {
 
 @media (max-width: 768px) {
   .chinese{
-    background-position: center top;
-    background-size: cover;
     width: 100%;
     animation-duration: 20s;
   }
@@ -500,7 +500,6 @@ section.gallery-section:before {
 
 @media (max-width: 768px) {
   section.gallery-section {
-    background-attachment: scroll;
     width: 100%;
     animation-duration: 20s;
   }
