@@ -1245,7 +1245,9 @@ img.moment-image-1{
 }
 
 .active, .dot:hover {
-  background-color: wheat;
+  background-color: black;
+  border: 1px solid wheat;
+
 }
 
 /* Fading animation */
