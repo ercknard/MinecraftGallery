@@ -1190,9 +1190,11 @@ img.moment-image-1{
 /* Hide the images by default */
 .mySlides {
   display: none;
-  border-image: linear-gradient(to top, wheat, black)1;
+  border-image: linear-gradient(to top, wheat, gray)1;
   border-style: solid;
-  border-top: none;
+  border-width: 2px;
+  background-color: wheat;
+  border-bottom: none;
 }
 
 /* Next & previous buttons */
