@@ -815,11 +815,24 @@ section.web-logo-elements {
 
 img.logo-pic-elements {
   width: 100%;
-  border: 1px solid wheat;
-  box-shadow: 0 0 25px 2px wheat;
   margin: 0;
   margin-top: 4rem;
   margin-bottom: 40px;
+  border-radius: 3px;
+  filter: contrast(120%);
+  animation-name: logopic;
+  animation-timing-function: ease;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logopic {
+  0%   {border: 2px solid white;}
+  20%  {box-shadow: 0 0 25px 1px wheat; border: 2px solid wheat;}
+  40%  {box-shadow: 0 0 25px 1px wheat; border: 2px solid wheat;}
+  60%  {box-shadow: 0 0 25px 1px wheat; border: 2px solid wheat;}
+  80%  {border: 2px solid white;}
+  100% {border: 2px solid white;}
 }
 
 @media (max-width: 768px) {
@@ -828,6 +841,7 @@ img.logo-pic-elements {
     border: 2px solid wheat;
     box-shadow: 0 0 10px 3px wheat;
     margin-bottom: 20px;
+    animation-duration: 20s;
   }
 }
 
