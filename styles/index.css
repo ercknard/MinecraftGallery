@@ -1554,7 +1554,7 @@ section.gallery-section-tour {
   padding-bottom: 10px;
   overflow: visible;
   border: 1px solid wheat;
-  min-height: 90vh;
+  background-color: black;
 }
 
 div.plaza-title-tour {
@@ -1574,6 +1574,48 @@ div.width-section-tour {
   width: 95%;
 }
 
+@media (max-width: 768px) {
+  section.gallery-section-tour {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  section.gallery-section-tour {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  section.gallery-section-tour {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1600px) {
+  section.gallery-section-tour {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+}
+
 .tour-view {
-  min-height: 76vh;
+  text-align: center;
+  min-height: 50vh;
+}
+h3.tour-comment {
+  color: wheat;
+  text-align: justify;
+}
+
+h2.tour-comment {
+  color: red;
+  text-align: center;
 }
