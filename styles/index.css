@@ -1372,7 +1372,7 @@ img.moment-image-1{
   color: #999;
   display: inline; /* for vertical centering and background knockout */
   background-color: black; /* same as background color */
-  padding: 0 0.9em; /* size of background color knockout */
+  padding: 0 .8em; /* size of background color knockout */
   font-size: 2rem;
   animation-name: hrmonated;
   animation-duration: 15s;
@@ -1386,9 +1386,9 @@ x:-o-prefocus, .hr-animated:after {
 
 @keyframes hrmonated {
   0%   {background-color:transparent;}
-  20%  {background-color:transparent;     filter: drop-shadow(0px 2px 5px rgba(245, 222, 179, 1)); color:wheat;}
-  40%  {background-color:transparent;     filter: drop-shadow(0px 2px 5px rgba(245, 222, 179, 1)); color:wheat;}
-  60%  {background-color:transparent;     filter: drop-shadow(0px 2px 5px rgba(245, 222, 179, 1)); color:wheat;}
+  20%  {background-color:transparent;     text-shadow: 0 0px 30px wheat; color:wheat;}
+  40%  {background-color:transparent;     text-shadow: 0 0px 30px wheat; color:wheat;}
+  60%  {background-color:transparent;     text-shadow: 0 0px 30px wheat; color:wheat;}
   80%  {background-color:transparent;}
   100% {background-color:transparent;}
 }
