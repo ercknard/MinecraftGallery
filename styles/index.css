@@ -1722,6 +1722,10 @@ img.shakess {
   justify-content: center;
   gap: 1%;
   z-index: 3;
+  background-color: black;
+  border: 1px solid wheat;
+  border-radius: 1%;
+  margin-top: 10px;
 }
 
 .image-selection {
@@ -1764,7 +1768,7 @@ img.shakess {
 }
 
 .con .tooltiptext-selection {
-  margin-left: auto;
+  position: absolute;
   visibility: hidden;
   background-color: black;
   color: #fff;
