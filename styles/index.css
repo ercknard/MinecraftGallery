@@ -1709,3 +1709,79 @@ img.shakess {
     opacity: 1;
   }
 }
+
+.selection-bar {
+  bottom: 0;
+  padding: 10px;
+  padding-bottom: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+  z-index: 3;
+}
+
+.image-selection {
+  opacity: 1;
+  display: block;
+  width: 6rem;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 1600px) {
+  .image-selection {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-selection{
+    width: 2rem;
+    margin-bottom: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .selection-bar {
+    gap: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.image-selection:hover {
+  filter: drop-shadow(0px 0px 30px rgba(225, 225, 225, 1)); opacity: 1;
+  transform: scale(1.15);
+  animation-name: shakess;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+}
+
+.con .tooltiptext-selection {
+  margin-left: auto;
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, wheat, gray) 1;
+  overflow: visible;
+}
+
+.con:hover .tooltiptext-selection {
+  visibility: visible;
+}
+
+@media (max-width: 768px) {
+  .tooltiptext-selection {
+    display: none;
+  }
+}
