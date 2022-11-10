@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+a {
+  color: wheat;
+  text-decoration: none;
+}
+
 html {
   font-family: myFirstFont;
   font-size: 1rem;
@@ -682,6 +687,7 @@ div.plaza-title {
   /* box-shadow:         inset 0px 25px 25px rgba(245, 222, 179, 0.50); */
   color: white;
   border: 2px solid wheat;
+  background-color: black;
   animation-name: btnhover;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -717,7 +723,7 @@ div.plaza-title {
   text-align: center;
   border-width: 2px;
   border-style: solid;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 1);
   border-image: linear-gradient(to bottom, wheat, gray) 1;
   box-shadow:         inset 0px -25px 50px rgba(245, 222, 179, 0.25);
   margin-bottom: 10px;
@@ -732,7 +738,7 @@ div.plaza-title {
 
 .con .tooltiptext {
   visibility: hidden;
-  background-color: transparent;
+  background-color: black;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -744,7 +750,18 @@ div.plaza-title {
   overflow: visible;
 }
 
+.con .content {
+  visibility: hidden;
+  position: absolute;
+  background-color: black;
+  font-size: 1.5rem;
+}
+
 .con:hover .tooltiptext {
+  visibility: visible;
+}
+
+.con:hover .content {
   visibility: visible;
 }
 
@@ -1712,11 +1729,11 @@ img.shakess {
 
 .selection-bar {
   bottom: 0;
+  width: 100%;
   padding: 10px;
   padding-bottom: none;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
   align-items: center;
   display: flex;
   justify-content: center;
