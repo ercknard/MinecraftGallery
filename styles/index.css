@@ -512,13 +512,13 @@ section.gallery-section-1:before {
     background-size: cover; box-shadow:         inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);}
   20%  {background-image: url(../images/bgs/webp/stars.webp);   background-repeat: no-repeat;
     background-position: center top;
-    background-size: cover; box-shadow:         inset 0px 0px 120px 1px rgba(245, 222, 179, 0.30), 0 0 100px 1px rgba(245, 222, 179, .5);}
+    background-size: cover; box-shadow:         inset 0px 0px 120px 1px rgba(245, 222, 179, 0.30), 0 0 100px 5px rgba(245, 222, 179, .3);}
   40%  {background-image: url(../images/bgs/webp/stars.webp);   background-repeat: no-repeat;
     background-position: center top;
-    background-size: cover; box-shadow:         inset 0px 0px 120px 1px rgba(245, 222, 179, .3), 0 0 1000px 1px rgba(245, 222, 179, .25);}
+    background-size: cover; box-shadow:         inset 0px 0px 120px 1px rgba(245, 222, 179, .3), 0 0 1000px 100px rgba(245, 222, 179, .3);}
   60%  {background-image: url(../images/bgs/webp/stars.webp);   background-repeat: no-repeat;
     background-position: center top;
-    background-size: cover; box-shadow:         inset 0px 0px 120px 1px rgba(245, 222, 179, 0.30), 0 0 100px 1px rgba(245, 222, 179, .5);}
+    background-size: cover; box-shadow:         inset 0px 0px 120px 1px rgba(245, 222, 179, 0.30), 0 0 100px 5px rgba(245, 222, 179, .3);}
   80%  {background-image: url(../images/bgs/webp/stars1.webp);   background-repeat: no-repeat;
     background-position: center top;
     background-size: cover; box-shadow:         inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);}
