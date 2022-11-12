@@ -1815,3 +1815,24 @@ header.nav-fixed {
   animation-duration: 15s;
   animation-iteration-count: infinite;
 }
+
+.base {
+  animation-name: gallerymote-base;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@media (max-width: 768px) {
+  .base {
+    animation-duration: 20s;
+  }
+}
+
+@keyframes gallerymote-base {
+  0%   {}
+  20%  {box-shadow: 0 0 100px 1px rgba(245, 222, 179, .5);}
+  40%  {box-shadow: 0 0 1000px 1px rgba(245, 222, 179, .25);}
+  60%  {box-shadow: 0 0 100px 1px rgba(245, 222, 179, .5);}
+  80%  {}
+  100% {}
+}
