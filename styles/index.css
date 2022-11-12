@@ -1748,7 +1748,7 @@ img.shakess {
 .image-selection {
   opacity: 1;
   display: block;
-  width: 6rem;
+  width: 5rem;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
