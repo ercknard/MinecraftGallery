@@ -133,9 +133,15 @@ div.main-navigation{
 
 header.navigation {
   width: 100%;
-  position: relative;
+  position: fixed;
   margin: auto;
   padding: 20px;
+  top: 0;
+  z-index: 9999;
+  border-bottom: 1px solid wheat;
+  animation-name: bgcanva;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
 }
 
 @media only screen and (max-width: 1200px) {
