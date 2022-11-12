@@ -515,7 +515,7 @@ section.gallery-section-1:before {
     background-size: cover; box-shadow:         inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0 0 1000px 1px rgba(245, 222, 179, .3);}
   40%  {background-image: url(../images/bgs/webp/stars.webp);   background-repeat: no-repeat;
     background-position: center top;
-    background-size: cover; box-shadow:         inset 0px 0px 120px 1px rgba(245, 222, 179, .25), 0 0 1000px 1px rgba(245, 222, 179, .3);}
+    background-size: cover; box-shadow:         inset 0px 0px 120px 1px rgba(245, 222, 179, .25), 0 0 1000px 1px rgba(245, 222, 179, .2);}
   60%  {background-image: url(../images/bgs/webp/stars.webp);   background-repeat: no-repeat;
     background-position: center top;
     background-size: cover; box-shadow:         inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0 0 1000px 1px rgba(245, 222, 179, .3);}
@@ -1831,7 +1831,7 @@ header.nav-fixed {
 @keyframes gallerymote-base {
   0%   {}
   20%  {box-shadow: 0 0 1000px 1px rgba(245, 222, 179, .3);}
-  40%  {box-shadow: 0 0 1000px 1px rgba(245, 222, 179, .3);}
+  40%  {box-shadow: 0 0 1000px 1px rgba(245, 222, 179, .2);}
   60%  {box-shadow: 0 0 1000px 1px rgba(245, 222, 179, .3);}
   80%  {}
   100% {}
