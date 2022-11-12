@@ -1,4 +1,5 @@
 .base {
+  margin-top: 6.5rem;
     background-color: black;
     background-image: url(../images/walls/webp/blur/statue-wall.webp);
     background-attachment: fixed;
