@@ -788,6 +788,12 @@ a.con-link {
   text-decoration: none;
 }
 
+a.con-link-1 {
+  color: wheat;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
 a.plaza-title {
   position: relative;
   margin-left: auto;
@@ -937,7 +943,7 @@ ul.spanning-2 {
 }
 
 img.nav-image {
-  width: 90px;
+  width: 70px;
 }
 
 @media (max-width: 768px) {
