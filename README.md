@@ -8,3 +8,4 @@ https://minecraftgallery-ercknard.vercel.app <br />
 https://minecraftgallery-git-main-ercknard.vercel.app <br />
 Game : Minecraft <br />
 Server : Cryptechcraft <br />
+Notes : This website is a sample only. Apologies for many LOREM IPSUM used. <br />
