@@ -1163,14 +1163,18 @@ img.moment-image-1{
 /* ----------------------------------------------------------------------------- */
 
 .map-1 {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   padding-bottom: 30px;
   border-bottom: 1px solid wheat;
+  width: 100%;
 }
 
 .elements-1x {
   border: 1px solid wheat;
   margin-top: 5px;
+  width: 100%;
 }
 
 .elements-1x:hover {
