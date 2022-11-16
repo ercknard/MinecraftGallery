@@ -103,7 +103,7 @@
   
   @media (max-width: 768px) {
     .floating-container:hover {
-      min-height: 80vh;
+      min-height: 85vh;
     }
   }
 
