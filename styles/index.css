@@ -1754,6 +1754,18 @@ img.shakess {
   }
 }
 
+@media (max-width: 768px) {
+  .scrolled.slide-left {
+    animation: none;
+  }
+  .scrolled.slide-right {
+    animation: none;
+  }
+  .scrolled.fade-in-bottom {
+    animation: none;
+  }
+}
+
 .selection-bar {
   bottom: 0;
   width: 100%;
