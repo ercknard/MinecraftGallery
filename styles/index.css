@@ -1323,6 +1323,7 @@ img.moment-image-1{
 }
 
 .font-600 {
+  font-size: 1.3rem;
   text-align: justify;
 }
 
@@ -1375,7 +1376,6 @@ img.moment-image-1{
   margin-left: auto;
   margin-right: auto;
   color: wheat;
-  padding: 25px;
   text-align: center;
   /*
   border-width: 3px;
@@ -1386,6 +1386,7 @@ img.moment-image-1{
 }
 
 .space-3 {
+  font-size: 1.3rem;
   padding: 5px;
 }
 
@@ -1907,7 +1908,7 @@ header.nav-fixed {
 
 @media (max-width: 1200px) {
   .typing {
-    font-size: 1.7rem;
+    font-size: 1.75rem;
   }
 }
 
@@ -1917,10 +1918,45 @@ header.nav-fixed {
   }
 }
 
+.typing-contact {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+@media (max-width: 1600px) {
+  .typing-contact {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .typing-contact {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .typing-contact {
+    font-size: 1.75rem;
+  }
+}
+
 .typed-text {
   color: wheat;
 }
 
 .zindex {
   z-index: 1;
+}
+
+.contact-img {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .contact-img {
+    width: 100%;
+  }
 }
