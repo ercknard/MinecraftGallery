@@ -979,7 +979,8 @@ img.nav-image {
 .elements-1-2 {
   border: 5px solid wheat;
   box-shadow: 0 0 50px rgba(245, 222, 179, 1);
-  margin: 15px;
+  margin: 0;
+  width: 100%;
 }
 
 /*
@@ -995,7 +996,7 @@ img.nav-image {
 
 @media (max-width: 768px) {
   .elements-1-2 {
-    width: 37%;
+    width: 100%;
     box-shadow: 0 10px 20px rgba(245, 222, 179, 1);
     margin: 0;
   }
@@ -1194,6 +1195,7 @@ img.moment-image-1{
     width: 100%;
   }
 }
+
 
 /* ----------------------------------------------------------------------------- */
 
