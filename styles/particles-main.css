@@ -21,7 +21,7 @@
 
   @media (max-width: 768px) {
     #particles-js {
-      animation-duration: 20s;
+     display: none;
     }
   }
 

@@ -26,3 +26,10 @@
       animation-duration: 20s;
     }
   }
+  */
+
+    @media (max-width: 768px) {
+    #particles-js {
+     display: none;
+    }
+  }
