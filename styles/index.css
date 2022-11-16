@@ -300,7 +300,7 @@ section.web-logo:before {
 @media (max-width: 768px) {
   .logo-pic {
     margin-top: -40px;
-    max-width: 80vw;
+    max-width: 85vw;
     animation-duration: 20s;
   }
   .logo-pic-2 {
