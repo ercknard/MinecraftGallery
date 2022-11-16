@@ -1938,12 +1938,8 @@ header.nav-fixed {
 
 @media (max-width: 768px) {
   .typing-contact {
-    font-size: 2rem;
     position: absolute;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
+    font-size: 2rem;
   }
 }
 
@@ -1964,3 +1960,15 @@ header.nav-fixed {
     width: 100%;
   }
 }
+
+.contact-space {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .contact-space {
+    display: block;
+    padding: 30px;
+  }
+}
+
