@@ -4,11 +4,12 @@
 #particles-js{ 
     position:fixed; 
     width: 100%; 
-    height: 100%;
+    height: 100%; /*
     animation-name: stars;
     animation-duration: 15s;
-    animation-iteration-count: infinite;
-    opacity: 80% } 
+    animation-iteration-count: infinite; */
+    opacity: 80%;
+   } 
 /* ---- stats.js ---- */ 
 
 /* 
