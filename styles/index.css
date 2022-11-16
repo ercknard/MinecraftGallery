@@ -1920,3 +1920,7 @@ header.nav-fixed {
 .typed-text {
   color: wheat;
 }
+
+.zindex {
+  z-index: 1;
+}

@@ -8,15 +8,15 @@
     animation-name: stars;
     animation-duration: 15s;
     animation-iteration-count: infinite;
-    z-index: -1;
+    z-index: 0;
   } 
 /* ---- stats.js ---- */ 
 
 @keyframes stars {
     0%   {opacity: 0;}
-    20%  {opacity: 50%;}
-    40%  {opacity: 80%;}
-    60%  {opacity: 50%;}
+    20%  {opacity: .8;}
+    40%  {opacity: .8;}
+    60%  {opacity: .8;}
     80%  {opacity: 0;}
     100% {opacity: 0;}
   }
