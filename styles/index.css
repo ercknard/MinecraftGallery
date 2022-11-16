@@ -1921,7 +1921,7 @@ header.nav-fixed {
   color: white;
   font-size: 3rem;
   text-align: center;
-  font-weight: 300;
+  font-weight: bold;
 }
 
 @media (max-width: 1600px) {
@@ -1938,7 +1938,12 @@ header.nav-fixed {
 
 @media (max-width: 768px) {
   .typing-contact {
-    font-size: 1.3rem;
+    font-size: 2rem;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
   }
 }
 
