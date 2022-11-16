@@ -997,7 +997,7 @@ img.nav-image {
 @media (max-width: 768px) {
   .elements-1-2 {
     width: 100%;
-    box-shadow: 0 10px 20px rgba(245, 222, 179, 1);
+    box-shadow: 0 0 20px rgba(245, 222, 179, 1);
     margin: 0;
   }
 }
