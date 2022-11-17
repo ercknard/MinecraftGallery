@@ -2214,18 +2214,31 @@ header.nav-fixed {
     rotate(0deg);
 }
 
-.gallery-pics {
+.gallery-pics-1 {
   display: flex;
   gap: 10px;
 }
 
+@media (max-width: 768px) {
+  .gallery-pics-1 {
+    flex-direction: column;
+  }
+}
+
+.gallery-pics {
+  display: flex;
+  gap: 10px;
+} 
+
 .flash {
-  right: -100px;
   animation: flash 1s;
 }
 
 @keyframes flash {
-  100% {
-    right : 0;
+  from {
+    transform: translateY(3%);
+  }
+  to {
+    transform: translateY(0%);
   }
 }
