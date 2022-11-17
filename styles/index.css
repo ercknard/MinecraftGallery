@@ -15,7 +15,7 @@ a {
 }
 
 html {
-  font-family: myFirstFont;
+  font-family: myFirstFont, Garamond, serif;
   font-size: 1rem;
   animation-name: htmlcanva;
   animation-duration: 15s;
