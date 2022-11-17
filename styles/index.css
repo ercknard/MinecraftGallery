@@ -2108,3 +2108,95 @@ header.nav-fixed {
   font-size: 1.25rem;
 }
 
+.gridstack {
+  margin: auto;
+  width: 50%;
+}
+
+.stack {
+  display: grid;
+  margin: auto;
+  justify-content: center;
+  height: 40rem;
+}
+
+@media (max-width: 1900px) {
+  .stack {
+    height: 35rem;
+  }
+}
+
+@media (max-width: 1600px) {
+  .stack {
+    height: 38rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .stack {
+    height: 30rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .gridstack {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .stack {
+    height: 30rem;
+  }
+}
+
+.stack > img {
+  grid-area: stack;
+}
+
+.stack > img {
+  width: 100%;
+
+  box-shadow:  0 0 0.5rem rgb(0 0 0/ .2);
+
+  border: solid 0.1rem wheat;
+  border-bottom: solid .5rem wheat;
+  border-radius: 0.5rem;
+  transition: transform 200ms;
+}
+
+.stack > img:nth-child(1) {
+  transform: 
+    rotate(5deg)
+    translate(1.25rem)
+    translateY(-1.25rem);
+}
+
+.stack > img:nth-child(3) {
+  transform: 
+    rotate(-10deg)
+    translateX(-1.25rem);
+}
+
+.stack > img:nth-child(2) {
+  transform: 
+    rotate(0deg)
+}
+
+.stack:hover > img:nth-child(1) {
+  transform: 
+    rotate(10deg)
+    translate(2.25rem)
+    translateY(-2.25rem);
+}
+
+.stack:hover > img:nth-child(3) {
+  transform: 
+    translate(-3.75rem)
+    rotate(-20deg);
+}
+
+.stack:hover > img:nth-child(2) {
+  transform: 
+    rotate(0deg);
+}
