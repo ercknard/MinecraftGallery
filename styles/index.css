@@ -735,8 +735,9 @@ div.plaza-title {
 
 @media (max-width: 768px) {
   .text {
-    padding: 15px;
-    font-size: large;
+    padding: 10px;
+    font-size: 1.20rem;
+    font-weight: lighter;
   }
 }
 
