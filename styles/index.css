@@ -1982,15 +1982,16 @@ header.nav-fixed {
 }
 
 .image-index {
-  width: 500px;
+  width: 300px;
   animation-name: imgindex;
   animation-duration: 15s;
   animation-iteration-count: infinite;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
   .image-index {
-    width: 400px;
+    width: 250px;
     animation-duration: 20s;
   }
 }
@@ -1998,18 +1999,25 @@ header.nav-fixed {
 
 @keyframes imgindex {
   0%   {filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5)) brightness(80%) contrast(105%);}
-  20%  {filter: drop-shadow(1px 1px 200px rgba(245, 222, 179, 1))brightness(80%) contrast(105%);}
-  40%  {filter: drop-shadow(1px 1px 200px rgba(245, 222, 179, 1))brightness(80%) contrast(105%);}
-  60%  {filter: drop-shadow(1px 1px 150px rgba(245, 222, 179, 1))brightness(80%) contrast(105%);}
+  20%  {filter: drop-shadow(1px 1px 300px rgba(245, 222, 179, 1))brightness(80%) contrast(105%);}
+  40%  {filter: drop-shadow(1px 1px 300px rgba(245, 222, 179, 1))brightness(80%) contrast(105%);}
+  60%  {filter: drop-shadow(1px 1px 300px rgba(245, 222, 179, 1))brightness(80%) contrast(105%);}
   80%  {filter: drop-shadow(1px 1px 1000px wheat)brightness(80%) contrast(105%);}
   85%  {filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5)) brightness(80%) contrast(105%);}
   100% {filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5)) brightness(80%) contrast(105%);}
 }
 
 .image-comment {
-  color: wheat;
+  position: relative;
   font-size: 1.5rem;
   width: 100%;
+  background: linear-gradient(90deg, wheat, #fff);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-color: wheat;
+  animation: animate12 2s infinite;
+  -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
 @media (max-width: 768px) {
@@ -2042,3 +2050,24 @@ header.nav-fixed {
     display:none;
   }
 }
+
+.gulf {
+  background: linear-gradient(90deg, wheat, #fff);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-color: wheat;
+  animation: animate12 2s infinite;
+  -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate12 {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
