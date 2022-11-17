@@ -661,6 +661,14 @@ div.plaza-title {
   clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
 }
 
+.poly:hover {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.polys:hover {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
 .middle {
   transition: .5s ease;
   opacity: 0;
@@ -1253,6 +1261,11 @@ img.moment-image-1{
   border-width: 2px;
   background-color: wheat;
   border-bottom: none;
+}
+
+.mySlides-1 {
+  display: none;
+  border-image: linear-gradient(to top, wheat, gray)1;
 }
 
 /* Next & previous buttons */
@@ -2199,4 +2212,20 @@ header.nav-fixed {
 .stack:hover > img:nth-child(2) {
   transform: 
     rotate(0deg);
+}
+
+.gallery-pics {
+  display: flex;
+  gap: 10px;
+}
+
+.flash {
+  right: -100px;
+  animation: flash 1s;
+}
+
+@keyframes flash {
+  100% {
+    right : 0;
+  }
 }
