@@ -2052,11 +2052,11 @@ header.nav-fixed {
 }
 
 .gulf {
-  background: linear-gradient(90deg, wheat, #fff);
+  background: linear-gradient(90deg, wheat, #fff, #fff);
   background-repeat: no-repeat;
   background-size: 80%;
   background-color: wheat;
-  animation: animate12 2s infinite;
+  animation: animate12 1s infinite;
   -webkit-background-clip: text;
         -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
