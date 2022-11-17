@@ -652,6 +652,15 @@ div.plaza-title {
   z-index: 100;
 }
 
+.polys {
+  background-color: wheat;
+  clip-path: polygon(3.5% 0%, 100% 0%, 96.5% 100%, 0% 100%);
+}
+.poly {
+  border: 2px solid wheat;
+  clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+
 .middle {
   transition: .5s ease;
   opacity: 0;
