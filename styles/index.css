@@ -2464,11 +2464,3 @@ header.nav-fixed {
     display: none;
   }
 }
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
