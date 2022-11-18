@@ -705,17 +705,16 @@ div.plaza-title {
 }
 
 .con:hover .text {
-  opacity: .9;
+  opacity: 1;
   /* box-shadow:         inset 0px 25px 25px rgba(245, 222, 179, 0.50); */
   color: white;
   border: 2px solid wheat;
-  background-color: black;
-  animation-name: btnhover;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  background: rgba(0, 0, 0, 1);
+  transition: .3s;
 }
 
+/*
 @keyframes btnhover {
 0%   {box-shadow:         inset 0px 25px 50px rgba(245, 222, 179, 0.50);}
 20%  {background: linear-gradient(to right, rgba(229, 172, 142, 0), rgba(245, 222, 179, 0.5), rgba(229, 172, 142, 0));}
@@ -724,6 +723,7 @@ div.plaza-title {
 80% {box-shadow:         inset 0px -25px 20px rgba(245, 222, 179, 0.50);}
 100%   {box-shadow:         inset 0px 25px 50px rgba(245, 222, 179, 0.50);}
 }
+*/
 
 .mainland-text{
   width: 100%;
@@ -745,10 +745,13 @@ div.plaza-title {
   text-align: center;
   border-width: 2px;
   border-style: solid;
-  background: rgba(0, 0, 0, 1);
+  background: rgba(245, 222, 179, .1);
   border-image: linear-gradient(to bottom, wheat, gray) 1;
-  box-shadow:         inset 0px -25px 50px rgba(245, 222, 179, 0.25);
+  /*
+  box-shadow:         inset 0px -25px 50px rgba(245, 222, 179, 0.25); */
   margin-bottom: 10px;
+  clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+  z-index: 9999;
 }
 
 @media (max-width: 768px) {
@@ -760,17 +763,17 @@ div.plaza-title {
 }
 
 .con .tooltiptext {
+  position: relative;
   visibility: hidden;
   background-color: black;
-  color: #fff;
+  color: wheat;
   text-align: center;
-  border-radius: 6px;
   padding: 5px;
-  border-bottom: none;
-  border-width: 1px;
-  border-style: solid;
-  border-image: linear-gradient(to bottom, wheat, transparent) 1;
   overflow: visible;
+}
+
+.tooltiptext {
+  z-index: 1;
 }
 
 .con .content {

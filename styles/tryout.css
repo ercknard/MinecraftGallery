@@ -1,0 +1,57 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(/fonts/MinecraftRegular-Bmg3.otf);
+  }
+
+
+html {
+    font-family: myFirstFont, Garamond, serif;
+    font-size: 1rem;
+    background-color: darkgray;
+  }
+
+.button-design {
+  color: wheat;
+  text-decoration: none;
+  padding: 15px 30px;
+  background-color: black;
+  background-clip: padding-box;
+  outline-offset: 5px;
+  outline: solid 1px white;
+}
+
+.button-design:hover {
+    background-color: wheat;
+    color: black;
+    padding: 15px 35px;
+    outline-offset: 5px;
+    transition: 1s;
+}
+
+/*
+font-weight: bold;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+color: wheat;
+padding: 15px;
+text-align: center;
+border-width: 2px;
+border-style: solid;
+background: rgba(0, 0, 0, 1);
+border-image: linear-gradient(to bottom, wheat, gray) 1;
+box-shadow:         inset 0px -25px 50px rgba(245, 222, 179, 0.25);
+margin-bottom: 10px;
+
+
+opacity: .9;
+/* box-shadow:         inset 0px 25px 25px rgba(245, 222, 179, 0.50);
+color: white;
+border: 2px solid wheat;
+background-color: black;
+animation-name: btnhover;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+
+*/
