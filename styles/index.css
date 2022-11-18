@@ -2443,3 +2443,23 @@ header.nav-fixed {
     opacity: 1;
   }
 }
+
+.notformb {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .notformb {
+    display: flex;
+  }
+}
+
+.yesformb {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .yesformb {
+    display: none;
+  }
+}
