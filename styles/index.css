@@ -2100,21 +2100,6 @@ header.nav-fixed {
   display: flex;
   align-items: baseline;
   justify-content: center;
-  animation-name: dashing;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes dashing {
-  0% {gap:0%;}
-  50% {gap:20%;}
-  100% {gap:0%;}
-}
-
-@media (max-width: 768px) {
-  .index-coll {
-    animation: none;
-  }
 }
 
 .index-coll-1 {
