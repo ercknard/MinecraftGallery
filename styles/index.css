@@ -2048,8 +2048,8 @@ header.nav-fixed {
 
 @keyframes imgindex {
   0%   {filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5)) brightness(80%) contrast(105%);}
-  20%  {filter: drop-shadow(1px 1px 300px rgba(245, 222, 179, 1))brightness(80%) contrast(105%);}
-  40%  {filter: drop-shadow(1px 1px 300px rgba(245, 222, 179, 1))brightness(80%) contrast(105%);}
+  20%  {filter: drop-shadow(1px 1px 10px rgba(245, 222, 179, 1))brightness(80%) contrast(105%);}
+  40%  {filter: drop-shadow(1px 1px 150px rgba(245, 222, 179, 1))brightness(80%) contrast(105%);}
   60%  {filter: drop-shadow(1px 1px 300px rgba(245, 222, 179, 1))brightness(80%) contrast(105%);}
   80%  {filter: drop-shadow(1px 1px 1000px wheat)brightness(80%) contrast(105%);}
   85%  {filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5)) brightness(80%) contrast(105%);}
@@ -2064,15 +2064,34 @@ header.nav-fixed {
   background-repeat: no-repeat;
   background-size: 80%;
   background-color: wheat;
-  animation: animate12 2s infinite;
+  animation-name: animate12, coment;
+  animation-duration: 2s, 5s;
+  animation-iteration-count: infinite, infinite;
   -webkit-background-clip: text;
         -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  margin-bottom: 20px;
+  
+}
+
+@keyframes coment {
+  0%   {clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); border: 1px solid wheat;}
+  50%  {clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%); border: 1px solid white;}
+  100%   {clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); border: 1px solid wheat;}
 }
 
 @media (max-width: 768px) {
   .image-comment {
     width: 100%;
+    animation-name: animate12, comentmb;
+    animation-duration: 2s, 5s;
+    animation-iteration-count: infinite, infinite;
   }
+}
+
+@keyframes comentmb {
+  0%   {clip-path: polygon(1% 0%, 100% 0%, 99% 100%, 0% 100%); border: 1px solid wheat;}
+  50%  {clip-path: polygon(0 0, 99% 0, 100% 100%, 1% 100%); border: 1px solid white;}
+  100%   {clip-path: polygon(1% 0%, 100% 0%, 99% 100%, 0% 100%); border: 1px solid wheat;}
 }
 
 .index-coll {
