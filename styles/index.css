@@ -2324,8 +2324,8 @@ header.nav-fixed {
     display: block;
     position: absolute;
     background: wheat;
-    width: 40px;
-    height: 4px;
+    width: 30px;
+    height: 3px;
     margin: 1.3em 3em;
     transition: background 0.3s;
 }
