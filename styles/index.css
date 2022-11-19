@@ -825,7 +825,6 @@ footer.foot-works {
 @media (max-width: 768px) {
   footer.foot-works {
     padding: 10px;
-    padding-bottom: 0;
   }
 }
 
