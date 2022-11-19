@@ -2085,9 +2085,9 @@ header.nav-fixed {
 }
 
 @keyframes coment {
-  0%   {clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); border: 1px solid wheat;}
-  50%  {clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%); border: 1px solid white;}
-  100%   {clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); border: 1px solid wheat;}
+  0%   {clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%); border: 1px solid wheat;}
+  50%  {clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%); border: 1px solid white;}
+  100%   {clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%); border: 1px solid wheat;}
 }
 
 @media (max-width: 768px) {
