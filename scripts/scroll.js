@@ -52,13 +52,9 @@ var timer=0;
 var count=0;
 var scroll = 0;
 
-window.addEventListener("scroll", () => { 
-  scrollCount.innerHTML = scroll++;
-  throttle(() => {
-    handleScrollAnimation();
-    throttleCount.innerHTML = count++;
-  }, 250);
-});
+window.addEventListener('scroll', () => {
+  throttle(handleScrollAnimation, 100);
+})
 
 const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
  

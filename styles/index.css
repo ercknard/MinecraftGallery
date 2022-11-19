@@ -1786,13 +1786,23 @@ img.shakess {
   }
 }
 
-.js-scroll {
-  opacity: 0;
-  transition: opacity 500ms;
+#scroll-count {
+  display: none;
 }
 
-.js-scroll.scrolled {
-  opacity: 1;
+#throttle-count {
+  display: none;
+}
+
+@media (max-height: 1200px) {
+  .js-scroll {
+    opacity: 0;
+    transition: opacity 1000ms;
+  }
+  
+  .js-scroll.scrolled {
+    opacity: 1;
+  }
 }
 
 @media (prefers-reduced-motion) {
