@@ -72,9 +72,16 @@
     min-height: 50vh;
   }
 
+  @media (max-height: 1400px) {
+    .floating-container:hover {
+      min-height: 80vh;
+    }
+  }
+
+
   @media (max-width: 1900px) {
     .floating-container:hover {
-      min-height: 70vh;
+      min-height: 80vh;
     }
   }
 
