@@ -2053,7 +2053,6 @@ header.nav-fixed {
     width: 200px;
     height: 200px;
     animation: none;
-    filter: drop-shadow(1px 1px 300px rgba(245, 222, 179, 1))brightness(80%) contrast(105%);
   }
 }
 
@@ -2324,7 +2323,7 @@ header.nav-fixed {
 .hamburger-menu, .hamburger-menu::before, .hamburger-menu::after {
     display: block;
     position: absolute;
-    background: white;
+    background: wheat;
     width: 40px;
     height: 4px;
     margin: 1.3em 3em;
@@ -2393,7 +2392,7 @@ header.nav-fixed {
 .menu-content ul {
   display: block;
   padding-left: 0;
-  padding-top: 2.5em;
+  padding-top: .5em;
   padding-bottom: 1em;
   margin: 0;
   width: 0px;
@@ -2413,7 +2412,7 @@ header.nav-fixed {
 
 .menu-content ul li:hover {
   color: #0CD6AD;
-  background: #1E332F;
+  background: gray;
 }
 }
 
