@@ -2053,6 +2053,7 @@ header.nav-fixed {
     width: 200px;
     height: 200px;
     animation: none;
+    filter: drop-shadow(1px 1px 300px rgba(245, 222, 179, 1))brightness(80%) contrast(105%);
   }
 }
 
