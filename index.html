@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="styles/index.css">
         <link rel="stylesheet" href="styles/fab.css">
         <link rel="stylesheet" href="styles/particles-main.css">
+        <script src="components/header/headerMAIN.js"></script>
+        <script src="components/header/headerHAM.js"></script>
         <script src="components/fab/fab.js"></script>
         <script src="components/footer/footer.js"></script>
     </head>
@@ -29,34 +31,8 @@
             <script src="scripts/particlescdn.js"></script>
             <script src="scripts/particles.js"></script>
           </div>
-        <header class="navigation-1">
-            <div class="main-navigation-index">
-            <span>
-                <img class="logo-pic-1" src="images/extras/webp/Ercknard-Guren.webp">
-            </span>
-            <span>
-                <ul class="navigation-list">
-                    <li><a class="nav-buttons" href="index.html">HOME</a></li>
-                    <li><a class="nav-buttons" href="gallery/">GALLERY</a></li>
-                    <li><a class="nav-buttons" href="about/">ABOUT</a></li>
-                    <li><a class="nav-buttons" href="contact/">CONTACT</a></li>
-                </ul>
-            </span>
-        </div>
-        <span class="checkbox-container">
-            <input class="checkbox-trigger" type="checkbox"  />
-            <span class="menu-content">
-                <ul>
-                    <img class="logo-pic-1" src="images/extras/webp/Ercknard-Guren.webp">
-                    <li><a class="nav-buttons-1" href="index.html">HOME</a></li>
-                    <li><a class="nav-buttons" href="gallery/">GALLERY</a></li>
-                    <li><a class="nav-buttons" href="about/">ABOUT</a></li>
-                    <li><a class="nav-buttons" href="contact/">CONTACT</a></li>
-                </ul>
-              <span class="hamburger-menu"></span>
-            </span>
-          </span>
-        </header>
+        <headerham-component></headerham-component>
+        <headermain-component></headermain-component>
         <section class="web-logo center">
             <div class="zindex">
                 <img class="logo-pic" src="images/extras/webp/Ercknard-Guren-XV.webp">
