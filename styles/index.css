@@ -2052,7 +2052,7 @@ header.nav-fixed {
   .image-index {
     width: 200px;
     height: 200px;
-    animation-duration: 20s;
+    animation: none;
   }
 }
 
