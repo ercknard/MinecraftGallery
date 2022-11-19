@@ -21,6 +21,11 @@
     100% {opacity: 0;}
   }
 
+  @media (max-width: 768px) {
+    #particles-js {
+     display: none;
+    }
+  }
 
 
 
