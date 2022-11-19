@@ -1786,6 +1786,15 @@ img.shakess {
   }
 }
 
+.js-scroll {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+}
+
 @media (prefers-reduced-motion) {
   .js-scroll {
     opacity: 1;
