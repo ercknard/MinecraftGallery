@@ -13,29 +13,19 @@
         <link rel="stylesheet" href="../styles/japanese.css">
         <link rel="stylesheet" href="../styles/fab.css">
         <link rel="stylesheet" href="../styles/particles.css">
+        <script src="../components/header/headerMOM.js"></script>
+        <script src="../components/fab/fab.js"></script>
         <script src="../components/footer/footer.js"></script>
     </head>
-    
+
     <body class="chinese">
       <div id="particles-js">
         <script src="../scripts/particlescdn.js"></script>
         <script src="../scripts/particles.js"></script>
       </div>
-        <header class="navigation">
-            <div class="main-navigation">
-            <span>
-                <img src="../images/extras/webp/Ercknard-Guren.webp">
-            </span>
-            <span>
-                <ul class="navigation-list">
-                    <li><a class="nav-buttons" href="../index.html">HOME</a></li>
-                    <li><a class="nav-buttons" href="../gallery/">GALLERY</a></li>
-                    <li><a class="nav-buttons" href="../about/">ABOUT</a></li>
-                    <li><a class="nav-buttons" href="../contact/">CONTACT</a></li>
-                </ul>
-            </span>
-        </div>
-        </header>
+
+      <headermom-component></headermom-component>
+      
         <section class="base">
         <section class="web-logo-elements center">
             <div class="spanning">
@@ -197,51 +187,7 @@
         </span>
     </div>
     </div>
-    <div class="floating-container">
-        <div class="floating-button"><img class="image-selection-fab" src="../images/logos/webp/TheLogor.webp"></div>
-        <div class="element-container">           
-          <a href="../moments/aether.html"> <span class="float-element tooltip-left">
-            <img class="image-selection-fab" src="../images/logos/webp/chisseled-quartz.webp"></a>
-          </span>
-          <!--
-          <a href="../moments/base.html"> <span class="float-element tooltip-left">
-            <img class="image-selection-fab" src="../images/logos/webp/melon.webp"></a>
-          </span> 
-            <a href="../moments/central.html"> <span class="float-element tooltip-left">
-              <img class="image-selection-fab" src="../images/logos/webp/beacon.webp"></a>
-          </span>
-                              --->
-          <a href="../moments/chinese.html"> <span class="float-element tooltip-left">
-            <img class="image-selection-fab" src="../images/logos/webp/shroomlight.webp"></a>
-          </span>
-          <a href="../moments/end.html"> <span class="float-element tooltip-left">
-            <img class="image-selection-fab" src="../images/logos/webp/purpur-block.webp"></a>
-          </span>
-          <a href="../moments/ice.html"> <span class="float-element tooltip-left">
-            <img class="image-selection-fab" src="../images/logos/webp/diamond-block.webp"></a>
-          </span> 
-          <a href="../moments/japanese.html"> <span class="float-element tooltip-left">
-            <img class="image-selection-fab" src="../images/logos/webp/pink-wool.webp"></a>
-          </span>
-          <a href="../moments/nether.html"> <span class="float-element tooltip-left">
-            <img class="image-selection-fab" src="../images/logos/webp/chiseled-blackstone.webp"></a>
-          </span>
-          <a href="../moments/ocean.html"> <span class="float-element tooltip-left">
-            <img class="image-selection-fab" src="../images/logos/webp/sea-lantern.webp"></a>
-          </span>
-          <a href="../moments/sand.html"> <span class="float-element tooltip-left">
-            <img class="image-selection-fab" src="../images/logos/webp/chiseled-sandstone.webp"></a>
-          </span>
-                  <!--- 
-          <a href="../moments/spawn.html"> <span class="float-element tooltip-left">
-            <img class="image-selection-fab" src="../images/logos/webp/glowstone.webp"></a>
-          </span>
-          <a href="../moments/statue.html"> <span class="float-element tooltip-left">
-            <img class="image-selection-fab" src="../images/logos/webp/polished-diorite.webp"></a>
-          </span>
-                    --->
-      </div>
-      </div>
+    <fab-component></fab-component>
       <footer-component></footer-component>
         </section>
 
