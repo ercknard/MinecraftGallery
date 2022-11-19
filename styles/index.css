@@ -2050,8 +2050,8 @@ header.nav-fixed {
 
 @media (max-width: 768px) {
   .image-index {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     animation-duration: 20s;
   }
 }
