@@ -25,12 +25,12 @@ html {
 }
 
 @keyframes htmlcanva {
-  0%  {filter: brightness(120%)}
-  20%  {filter: brightness(100%)}
-  40%  {filter: brightness(100%)}
-  60%  {filter: brightness(100%)}
-  80%  {filter: brightness(120%)}
-  100%  {filter: brightness(120%)}
+  0%  {filter: brightness(120%);}
+  20%  {filter: brightness(100%);}
+  40%  {filter: brightness(100%);}
+  60%  {filter: brightness(100%);}
+  80%  {filter: brightness(120%);}
+  100%  {filter: brightness(120%);}
 }
 
 @media (max-width: 992px) {
@@ -2528,6 +2528,8 @@ header.nav-fixed {
 
 .container-tile:hover .overlay-tile {
   height: 100%;
+  filter: brightness(125%);
+  transition: .5s ease;
 }
 
 .text-tile {
