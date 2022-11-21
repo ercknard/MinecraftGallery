@@ -2500,11 +2500,22 @@ header.nav-fixed {
   border: 20px solid;
   border-image: url(../images/extras/webp/border.png) 30 stretch;
   box-shadow:          0px -20px 100px 0px rgba(245, 222, 179, .25);
+  animation: tile-anim-img 15s ease infinite;
+}
+
+@keyframes tile-anim-img {
+  0%  {box-shadow: none;}
+  20%  {box-shadow:          0px -20px 100px 0px rgba(245, 222, 179, .25);}
+  40%  {box-shadow:          0px -20px 100px 0px rgba(245, 222, 179, .25);}
+  60%  {box-shadow:          0px -20px 100px 0px rgba(245, 222, 179, .25);}
+  80%  {box-shadow: none;}
+  100%  {box-shadow: none;}
 }
 
 @media (max-width: 768px) {
   .container-tile {
     width: 100%;
+    animation: tile-anim-img 20s ease infinite;
   }
 }
 
@@ -2586,6 +2597,22 @@ header.nav-fixed {
   padding: 10px;
   margin-top: 5px;
   margin-bottom: 20px;
+  animation: tile-anim 15s infinite;
+}
+
+@keyframes tile-anim {
+  0%  {box-shadow: none;}
+  20%  {box-shadow:          0px 0px 50px 10px rgba(245, 222, 179, .2);}
+  40%  {box-shadow:          0px 0px 50px 10px rgba(245, 222, 179, .2);}
+  60%  {box-shadow:          0px 0px 50px 10px rgba(245, 222, 179, .2);}
+  80%  {box-shadow: none;}
+  100%  {box-shadow: none;}
+}
+
+@media (max-width: 768px) {
+  .elements-1-2-3s {
+    animation: tile-anim 20s ease infinite;
+  }
 }
 
 .elements-1-2-3s:hover {
