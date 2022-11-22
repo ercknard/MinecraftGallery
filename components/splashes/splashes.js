@@ -2,8 +2,6 @@ const splashesTemplate = document.createElement('template');
 
 splashesTemplate.innerHTML = `
 <link rel="stylesheet" href="../../styles/index.css">
-<section class="scroll-container">
-<div class="scroll-element js-scroll slide-left">
 <div>
 <span class="hover01 main-images">
 <div class="gallery-pics-1">
@@ -26,11 +24,7 @@ splashesTemplate.innerHTML = `
 </div>
 </span>
 </div>
-</div>
-</section>
 <div class="space"></div>
-<section class="scroll-container">
-<div class="scroll-element js-scroll slide-right">
 <div>
 <span class="hover01 main-images">
 <div class="gallery-pics-1">
@@ -53,11 +47,7 @@ splashesTemplate.innerHTML = `
 </div>
 </span>
 </div>
-</div>
-</section>
 <div class="space"></div>
-<section class="scroll-container">
-<div class="scroll-element js-scroll slide-left">
 <div>
 <span class="hover01 main-images">
 <div class="gallery-pics-1">
@@ -79,76 +69,6 @@ splashesTemplate.innerHTML = `
 </div>           
 </div>
 </div>
-</div>
-</section>
-<script>
-const scrollElements = document.querySelectorAll(".js-scroll");
-const throttleCount = document.getElementById('throttle-count');
-const scrollCount = document.getElementById('scroll-count');
-
-var throttleTimer;
-
-const throttle = (callback, time) => {
-  if (throttleTimer) return;
-
-  throttleTimer = true;
-  setTimeout(() => {
-    callback();
-    throttleTimer = false;
-  }, time);
-}
-
-const elementInView = (el, dividend = 1) => {
-  const elementTop = el.getBoundingClientRect().top;
-
-  return (
-    elementTop <=
-    (window.innerHeight || document.documentElement.clientHeight) / dividend
-  );
-};
-
-const elementOutofView = (el) => {
-  const elementTop = el.getBoundingClientRect().top;
-
-  return (
-    elementTop > (window.innerHeight || document.documentElement.clientHeight)
-  );
-};
-
-const displayScrollElement = (element) => {
-  element.classList.add("scrolled");
-};
-
-const hideScrollElement = (element) => {
-  element.classList.remove("scrolled");
-};
-
-const handleScrollAnimation = () => {
-  scrollElements.forEach((el) => {
-    if (elementInView(el, 1.25)) {
-      displayScrollElement(el);
-    } else if (elementOutofView(el)) {
-      hideScrollElement(el)
-    }
-  })
-}
-var timer=0;
-var count=0;
-var scroll = 0;
-
-window.addEventListener('scroll', () => {
-  throttle(handleScrollAnimation, 100);
-})
-
-const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
- 
-window.addEventListener("scroll", () => {
-  //check if mediaQuery exists and if the value for mediaQuery does not match 'reduce', return the scrollAnimation.
-  if (mediaQuery && !mediaQuery.matches) {
-    handleScrollAnimation()
-  }
-});
-</script>
 `;
 
 class splashes extends HTMLElement {

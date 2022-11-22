@@ -2581,7 +2581,6 @@ header.nav-fixed {
 
 .icon-tile {
   display: flex;
-  filter: brightness(150%);
   animation-name: shakess, tile-icon;
   animation-duration: 5s, 15s;
   animation-iteration-count: infinite;
