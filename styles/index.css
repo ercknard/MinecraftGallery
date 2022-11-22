@@ -965,6 +965,7 @@ h1.controls {
 
 h3.moments-comment {
   color: wheat;
+  padding: 10px;
   text-align: justify;
   width: 70%;
 }
@@ -973,6 +974,7 @@ h3.moments-comment {
   h3.moments-comment {
     font-size: 1.3rem;
     width: 100%;
+    padding: 0;
   }
 }
 
@@ -1232,6 +1234,7 @@ h3.moments-comment-1 {
   padding: 10px;
   margin-top: 10px;
   margin: 10px;
+  font-weight: normal;
 }
 
 @media (max-width: 768px) {
@@ -1388,6 +1391,7 @@ img.moment-image-1{
 }
 
 .font-600 {
+  font-weight: normal;
   text-align: justify;
 }
 
