@@ -987,7 +987,15 @@ img.moment-image {
 b.moments-title {
   color: wheat;
   font-size: larger;
-  font-weight: bolder;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+h6 {
+  font-weight: normal;
 }
 
 span.spanning-1 {
