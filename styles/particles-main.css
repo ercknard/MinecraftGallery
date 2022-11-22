@@ -29,4 +29,41 @@
   }
 
 
+/* ---- reset ---- */ 
+
+/* ---- particles.js container ---- */ 
+#particles-js-1{ 
+  position: absolute;
+  width: 100%; /*
+  animation-name: stars;
+  animation-duration: 15s;
+  animation-iteration-count: infinite; */
+  opacity: 100%;
+  z-index: 0;
+ } 
+/* ---- stats.js ---- */ 
+
+/* 
+@keyframes stars {
+  0%   {opacity: 0;}
+  20%  {opacity: 50%;}
+  40%  {opacity: 80%;}
+  60%  {opacity: 50%;}
+  80%  {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+@media (max-width: 768px) {
+  #particles-js {
+    animation-duration: 20s;
+  }
+}
+*/
+
+  @media (max-width: 768px) {
+  #particles-js-1 {
+   display: none;
+  }
+}
+
 

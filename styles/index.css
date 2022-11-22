@@ -383,7 +383,7 @@ body.center {
   border-style: solid;
   border-image: linear-gradient(to bottom, wheat,gray) 1;
   border: 20px solid;
-  border-image: url(../images/extras/webp/border.png) 30 stretch;
+  border-image: url(../images/extras/webp/border.png) 40;
 }
 
 span.main-images {
@@ -675,12 +675,14 @@ div.plaza-title {
 }
 
 .polys {
-  background-color: wheat;
-  clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+  background: linear-gradient(to bottom, wheat, gray 100%);
+  clip-path: polygon(4.5% 0%, 100% 0%, 95.5% 100%, 0% 100%);
 }
 .poly {
-  border: 2px solid wheat;
-  clip-path: polygon(7% 0%, 100% 0%, 93% 100%, 0% 100%);
+  border-image: linear-gradient(to bottom, wheat, gray 100%);
+  border-width: 2px;
+  border-style: solid;
+  clip-path: polygon(6% 0%, 100% 0%, 94% 100%, 0% 100%);
 }
 
 .poly:hover {
@@ -2507,16 +2509,17 @@ header.nav-fixed {
   margin-right: auto;
   width: 30%;
   border: 20px solid;
-  border-image: url(../images/extras/webp/border.png) 30 stretch;
-  box-shadow:          0px -20px 100px 0px rgba(245, 222, 179, .25);
-  animation: tile-anim-img 15s ease infinite;
+  border-image: url(../images/extras/webp/border.png) 40;
+  animation-name: tile-anim-img;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes tile-anim-img {
   0%  {box-shadow: none;}
-  20%  {box-shadow:          0px -20px 100px 0px rgba(245, 222, 179, .25);}
-  40%  {box-shadow:          0px -20px 100px 0px rgba(245, 222, 179, .25);}
-  60%  {box-shadow:          0px -20px 100px 0px rgba(245, 222, 179, .25);}
+  20%  {box-shadow:          0px -20px 1000px 0px rgba(245, 222, 179, .25);}
+  40%  {box-shadow:          0px -20px 1000px 0px rgba(245, 222, 179, .25);}
+  60%  {box-shadow:          0px -20px 1000px 0px rgba(245, 222, 179, .25);}
   80%  {box-shadow: none;}
   100%  {box-shadow: none;}
 }
@@ -2569,9 +2572,24 @@ header.nav-fixed {
 }
 
 .icon-tile {
-  width: 10rem;
-  border: 10px solid;
-  border-image: url(../images/extras/webp/border.png) 30 stretch;
+  display: flex;
+  animation-name: shakess, tile-icon;
+  animation-duration: 5s, 15s;
+  animation-iteration-count: infinite;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+@keyframes tile-icon {
+  0%  {filter: none;}
+  20%  {filter: drop-shadow(0px 0px 50px rgba(245, 222, 179, .2)); opacity: 1;}
+  40%  {filter: drop-shadow(0px 0px 50px rgba(245, 222, 179, .2)); opacity: 1;}
+  60%  {filter: drop-shadow(0px 0px 50px rgba(245, 222, 179, .2)); opacity: 1;}
+  80%  {filter: none;}
+  80%  {filter: none;}
 }
 
 .items-tile {
