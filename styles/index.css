@@ -676,17 +676,23 @@ div.plaza-title {
 
 .polys {
   background: linear-gradient(to bottom, wheat, gray 100%);
-  clip-path: polygon(4.5% 0%, 100% 0%, 95.5% 100%, 0% 100%);
+  clip-path: polygon(2.5% 0%, 100% 0%, 97.5% 100%, 0% 100%);
 }
 .poly {
+  
   border-image: linear-gradient(to bottom, wheat, gray 100%);
   border-width: 2px;
   border-style: solid;
-  clip-path: polygon(6% 0%, 100% 0%, 94% 100%, 0% 100%);
+  clip-path: polygon(4% 0%, 100% 0%, 96% 100%, 0% 100%);
+  /*
+  border: 2.5px solid;
+  border-image: url(../images/extras/webp/border.png) 3;*/
 }
 
 .poly:hover {
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  border: 2px solid;
+  border-image: url(../images/extras/webp/border.png) 10;
 }
 
 .polys:hover {
