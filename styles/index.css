@@ -2512,9 +2512,9 @@ header.nav-fixed {
 */
 
 .container-tile {
+  margin-left: 10px;
+  margin-right: 10px;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
   width: 30%;
   border: 20px solid;
   border-image: url(../images/extras/webp/border.png) 40;
@@ -2540,7 +2540,7 @@ header.nav-fixed {
 }
 
 .image-tile {
-  display: block;
+  display: flex;
   width: 100%;
   height: auto;
 }
@@ -2584,11 +2584,16 @@ header.nav-fixed {
   animation-name: shakess, tile-icon;
   animation-duration: 5s, 15s;
   animation-iteration-count: infinite;
-  padding-top: 10px;
-  padding-bottom: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 75px;
+}
+
+@media (max-width: 768px) {
+  .icon-tile {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 @keyframes tile-icon {
@@ -2755,4 +2760,63 @@ header.nav-fixed {
     opacity:1;
   }
 
+}
+
+.tile-align {
+  display: flex;
+}
+
+.icon-tile-1 {
+  display: flex;
+  align-items: baseline;
+  animation-name: tile-icon;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  margin-top: 10px;
+  width: 50px;
+}
+
+@media (max-width: 768px) {
+  .icon-tile-1 {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+  }
+}
+
+.tile-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .tile-align {
+    gap: 15px;
+  }
+}
+
+.to-flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.icon-tile-2 {
+  display: flex;
+  animation-name: tile-icon;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .icon-tile-2 {
+    width: 50px;
+    height: 50px;
+  }
 }
