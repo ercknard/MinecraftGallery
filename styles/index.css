@@ -2962,21 +2962,21 @@ section.gallery-section-2 {
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
-      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0 0 1000px 1000px rgba(245, 222, 179, .05);
+      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20);
  }
   40% {
      background-image: url(../images/bgs/webp/stars.webp);
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
-      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, .25), 0 0 1000px 1000px rgba(245, 222, 179, .05);
+      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, .25);
  }
   60% {
      background-image: url(../images/bgs/webp/stars.webp);
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
-      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0 0 1000px 1000px rgba(245, 222, 179, .05);
+      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20);
  }
   80% {
      background-image: url(../images/bgs/webp/stars1.webp);
@@ -2991,5 +2991,99 @@ section.gallery-section-2 {
       background-position: center top;
       background-size: cover;
       box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);
+ }
+}
+
+section.gallery-section-3 {
+  background-attachment: fixed;
+  border-top-width: 1px;
+  border-top: solid wheat;
+  padding-bottom: 10px;
+  border-bottom-width: 1px;
+  border-bottom: solid wheat;
+  animation-name: gallerymote-2;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  overflow: visible;
+}
+
+@media (max-width: 768px) {
+  section.gallery-section-3 {
+      width: 100%;
+      animation-duration: 20s;
+ }
+}
+@keyframes gallerymote-2 {
+  0% {
+     background-image: url(../images/bgs/webp/stars1.webp);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);
+ }
+  20% {
+     background-image: url(../images/bgs/webp/stars.webp);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0px 0px 100px 1px rgba(245, 222, 179, .3);
+ }
+  40% {
+     background-image: url(../images/bgs/webp/stars.webp);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, .25), 0px 0px 100px 1px rgba(245, 222, 179, .2);
+ }
+  60% {
+     background-image: url(../images/bgs/webp/stars.webp);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0px 0px 100px 1px rgba(245, 222, 179, .3);
+ }
+  80% {
+     background-image: url(../images/bgs/webp/stars1.webp);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);
+ }
+  100% {
+     background-image: url(../images/bgs/webp/stars1.webp);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);
+ }
+}
+section.gallery-section-3:before {
+  content: "✵";
+  color: wheat;
+  display: inline;
+  background-color: black;
+  font-size: 4rem;
+  animation-name: hrmonatedlogo;
+  animation-timing-function: ease;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 768px) {
+  section.gallery-section-3 {
+      width: 100%;
+      animation-duration: 20s;
+ }
+}
+@media (max-width: 768px) {
+  section.gallery-section-3:before {
+      animation-name: hrmonatedlogomb;
+      animation-duration: 20s;
+      font-size: 3rem;
+      margin-left: 0;
+      margin-right: 0;
  }
 }
