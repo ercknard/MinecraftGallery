@@ -593,9 +593,6 @@ section.gallery-section-1 {
   background-attachment: fixed;
   border-top-width: 1px;
   border-top: solid wheat;
-  -webkit-box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.40);
-  -moz-box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.40);
-  box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.40);
   padding-bottom: 10px;
   border-bottom-width: 1px;
   border-bottom: solid wheat;
@@ -704,21 +701,21 @@ section.gallery-section-1:before {
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
-      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0 0 1000px 1px rgba(245, 222, 179, .3);
+      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0 0px 1000px rgba(245, 222, 179, .3);
  }
   40% {
      background-image: url(../images/bgs/webp/stars.webp);
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
-      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, .25), 0 0 1000px 1px rgba(245, 222, 179, .2);
+      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, .25), 0 0px 1000px rgba(245, 222, 179, .2);
  }
   60% {
      background-image: url(../images/bgs/webp/stars.webp);
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
-      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0 0 1000px 1px rgba(245, 222, 179, .3);
+      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0 0px 1000px rgba(245, 222, 179, .3);
  }
   80% {
      background-image: url(../images/bgs/webp/stars1.webp);

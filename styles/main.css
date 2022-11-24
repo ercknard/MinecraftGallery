@@ -1,15 +1,15 @@
  .movebg-par {
-    background-color: black;
+    /* background-color: black;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
     animation-name: bgmote;
     animation-duration: 15s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
     min-height: 30vh;
   }
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .movebg-par {
         animation-name: bgmotemb;
         animation-duration: 20s;
@@ -35,4 +35,4 @@
            background-image: url(../images/bgs/webp/e1.webp);
        }
    }
-  } 
+  }  */
