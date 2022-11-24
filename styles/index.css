@@ -2926,7 +2926,11 @@ header.nav-fixed {
 .basin {
   min-height: 65vh;
 }
-
+@media (max-width: 768px) {
+  .basin {
+    min-height: 50vh;
+ }
+}
 section.gallery-section-2 {
   background-attachment: fixed;
   border-top-width: 1px;
