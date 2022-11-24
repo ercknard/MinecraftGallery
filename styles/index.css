@@ -1445,11 +1445,15 @@ img.moment-image-1{
 /* Hide the images by default */
 .mySlides {
   display: none;
-  border-image: linear-gradient(to top, wheat, gray)1;
-  border-style: solid;
-  border-width: 2px;
-  background-color: wheat;
-  border-bottom: none;
+  border: 30px solid;
+  border-image: url(../images/extras/webp/border.png) 50;
+}
+@media (max-width: 768px) {
+  .mySlides {
+    display: none;
+    border: 10px solid;
+    border-image: url(../images/extras/webp/border.png) 50;
+  }
 }
 .mySlides-1 {
   display: none;
@@ -2917,5 +2921,73 @@ header.nav-fixed {
   .icon-tile-2 {
       width: 50px;
       height: 50px;
+ }
+}
+.basin {
+  min-height: 65vh;
+}
+
+section.gallery-section-2 {
+  background-attachment: fixed;
+  border-top: none;
+  -webkit-box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.40);
+  -moz-box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.40);
+  box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.40);
+  padding-bottom: 10px;
+  border-bottom-width: 1px;
+  border-bottom: solid wheat;
+  animation-name: gallerymote-1;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  overflow: visible;
+}
+@media (max-width: 768px) {
+  section.gallery-section-2 {
+      width: 100%;
+      animation-duration: 20s;
+ }
+}
+@keyframes gallerymote-1 {
+  0% {
+     background-image: url(../images/bgs/webp/stars1.webp);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);
+ }
+  20% {
+     background-image: url(../images/bgs/webp/stars.webp);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0 0 1000px 1000px rgba(245, 222, 179, .05);
+ }
+  40% {
+     background-image: url(../images/bgs/webp/stars.webp);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, .25), 0 0 1000px 1000px rgba(245, 222, 179, .05);
+ }
+  60% {
+     background-image: url(../images/bgs/webp/stars.webp);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0 0 1000px 1000px rgba(245, 222, 179, .05);
+ }
+  80% {
+     background-image: url(../images/bgs/webp/stars1.webp);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);
+ }
+  100% {
+     background-image: url(../images/bgs/webp/stars1.webp);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);
  }
 }
