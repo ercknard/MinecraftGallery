@@ -236,13 +236,13 @@ a.nav-buttons {
 a.nav-buttons-1 {
   color: wheat;
   text-decoration: none;
-  box-sh5dow: 0 10px 45px rgba(245, 222, 179, 1);
+  box-shadow: 0 10px 45px rgba(245, 222, 179, 1);
   background-color: rgba(245, 222, 179, .25);
 }
 a:hover {
   color: white;
   text-decoration: none;
-  box-sh5dow: 0 10px 50px rgba(245, 222, 179, 1);
+  box-shadow: 0 10px 50px rgba(245, 222, 179, 1);
  /* text-shadow: 0 10px 45px rgba(245, 222, 179, 1);
   */
   background-color: rgba(245, 222, 179, .25);
@@ -282,7 +282,7 @@ section.web-logo:before {
       background-color:transparent;
       left: 50%;
       transform: translate(-50%,-43vh);
-      box-sh5dow: 0px 0px 200px 100px rgba(225, 225, 225, .2);
+      box-shadow: 0px 0px 200px 100px rgba(225, 225, 225, .2);
       filter: drop-shadow(0px 0px 20px rgba(225, 225, 225, .5));
       opacity: 1;
  }
@@ -291,7 +291,7 @@ section.web-logo:before {
       background-color:transparent;
       left: 50%;
       transform: translate(-50%,-43vh);
-      box-sh5dow: 0px 0px 200px 100px rgba(225, 225, 225, .1);
+      box-shadow: 0px 0px 200px 100px rgba(225, 225, 225, .1);
       filter: drop-shadow(0px 0px 20px rgba(225, 225, 225, .5));
       opacity: 1;
  }
@@ -300,7 +300,7 @@ section.web-logo:before {
       background-color:transparent;
       left: 50%;
       transform: translate(-50%,-43vh);
-      box-sh5dow: 0px 0px 200px 100px rgba(225, 225, 225, .1);
+      box-shadow: 0px 0px 200px 100px rgba(225, 225, 225, .1);
       filter: drop-shadow(0px 0px 20px rgba(225, 225, 225, .5));
       opacity: .1;
  }
@@ -316,7 +316,7 @@ section.web-logo:before {
       background-color:transparent;
       left: 50%;
       transform: translate(-50%,-43vh);
-      box-sh5dow: 0px 0px 200px 100px rgba(245, 222, 179, .3);
+      box-shadow: 0px 0px 200px 100px rgba(245, 222, 179, .3);
       filter: drop-shadow(0px 0px 20px rgba(245, 222, 179, .5));
       opacity: 1;
  }
@@ -325,7 +325,7 @@ section.web-logo:before {
       background-color:transparent;
       left: 50%;
       transform: translate(-50%,-43vh);
-      box-sh5dow: 0px 0px 200px 100px rgba(245, 222, 179, .3);
+      box-shadow: 0px 0px 200px 100px rgba(245, 222, 179, .3);
       filter: drop-shadow(0px 0px 20px rgba(245, 222, 179, .5));
       opacity: .1;
  }
@@ -439,7 +439,7 @@ a.gallery-button {
   padding-left: 35px;
   font-size: 1.3rem;
   text-decoration: none;
-  box-sh5dow: inset 0px 25px 50px rgba(245, 222, 179, 0.50);
+  box-shadow: inset 0px 25px 50px rgba(245, 222, 179, 0.50);
   animation-name: gallerybtn;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -485,7 +485,7 @@ a.gallery-button {
 a.gallery-button:hover {
   color: white;
   text-decoration: none;
-  box-sh5dow: inset 0px 25px 50px rgba(245, 222, 179, 0.90), 0px 0px 300px rgba(245, 222, 179, 1);
+  box-shadow: inset 0px 25px 50px rgba(245, 222, 179, 0.90), 0px 0px 300px rgba(245, 222, 179, 1);
 }
 div.space {
   height: 10px;
@@ -2734,6 +2734,7 @@ header.nav-fixed {
 .elements-1-2-3s {
   border: 10px solid;
   border-image: url(../images/extras/webp/border.png) 30 stretch;
+  background-color: black;
   box-sh5dow: 0px 0px 50px 10px rgba(245, 222, 179, .2);
   width: 100%;
   padding: 10px;
@@ -2995,18 +2996,20 @@ section.gallery-section-2 {
 }
 
 section.gallery-section-3 {
-  background-attachment: fixed;
   border-top-width: 1px;
   border-top: solid wheat;
   padding-bottom: 10px;
   border-bottom-width: 1px;
   border-bottom: solid wheat;
-  animation-name: gallerymote-2;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
+  /* animation-name: gallerymote-2bg;
+  animation-duration: 195s;
+  animation-iteration-count: infinite; */
   overflow: visible;
+  background-image: url(../images/bgs/webp/galaxy-wall.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-
 @media (max-width: 768px) {
   section.gallery-section-3 {
       width: 100%;
