@@ -22,6 +22,9 @@ html {
  /* filter: contrast(110%);
   */
 }
+ul {
+  list-style-type: none;
+}
 h1 {
   font-weight: normal;
   color: white;
@@ -694,42 +697,42 @@ section.gallery-section-1:before {
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
-      box-sh5dow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);
+      box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);
  }
   20% {
      background-image: url(../images/bgs/webp/stars.webp);
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
-      box-sh5dow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0 0px 1000px rgba(245, 222, 179, .3);
+      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0 0px 1000px rgba(245, 222, 179, .3);
  }
   40% {
      background-image: url(../images/bgs/webp/stars.webp);
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
-      box-sh5dow: inset 0px 0px 120px 1px rgba(245, 222, 179, .25), 0 0px 1000px rgba(245, 222, 179, .2);
+      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, .25), 0 0px 1000px rgba(245, 222, 179, .2);
  }
   60% {
      background-image: url(../images/bgs/webp/stars.webp);
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
-      box-sh5dow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0 0px 1000px rgba(245, 222, 179, .3);
+      box-shadow: inset 0px 0px 120px 1px rgba(245, 222, 179, 0.20), 0 0px 1000px rgba(245, 222, 179, .3);
  }
   80% {
      background-image: url(../images/bgs/webp/stars1.webp);
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
-      box-sh5dow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);
+      box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);
  }
   100% {
      background-image: url(../images/bgs/webp/stars1.webp);
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
-      box-sh5dow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);
+      box-shadow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.20);
  }
 }
 @media (max-width: 768px) {
@@ -2123,13 +2126,13 @@ header.nav-fixed {
   0% {
  }
   20% {
-     box-sh5dow: 0 0 1000px 1px rgba(245, 222, 179, .3);
+     box-shadow: 0 0 1000px 1px rgba(245, 222, 179, .3);
  }
   40% {
-     box-sh5dow: 0 0 1000px 1px rgba(245, 222, 179, .2);
+     box-shadow: 0 0 1000px 1px rgba(245, 222, 179, .2);
  }
   60% {
-     box-sh5dow: 0 0 1000px 1px rgba(245, 222, 179, .3);
+     box-shadow: 0 0 1000px 1px rgba(245, 222, 179, .3);
  }
   80% {
  }
