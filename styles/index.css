@@ -2930,19 +2930,22 @@ header.nav-fixed {
  }
 }
 section.gallery-section-2 {
-  background-attachment: fixed;
-  border-top-width: 1px;
-  border-top: solid wheat;
+  /* border-top-width: 1px;
+  border-top: solid wheat; */
   -webkit-box-sh5dow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.40);
   -moz-box-sh5dow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.40);
   box-sh5dow: inset 0px 0px 100px 1px rgba(245, 222, 179, 0.40);
   padding-bottom: 10px;
   border-bottom-width: 1px;
   border-bottom: solid wheat;
-  animation-name: gallerymote-1;
+  /* animation-name: gallerymote-1;
   animation-duration: 15s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
   overflow: visible;
+  background-image: url(../images/bgs/webp/stars.webp);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
 @media (max-width: 768px) {
   section.gallery-section-2 {
@@ -2999,8 +3002,8 @@ section.gallery-section-3 {
   border-top-width: 1px;
   border-top: solid wheat;
   padding-bottom: 10px;
-  border-bottom-width: 1px;
-  border-bottom: solid wheat;
+  /* border-bottom-width: 1px;
+  border-bottom: solid wheat; */
   /* animation-name: gallerymote-2bg;
   animation-duration: 195s;
   animation-iteration-count: infinite; */

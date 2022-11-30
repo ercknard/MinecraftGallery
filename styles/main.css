@@ -6,8 +6,8 @@
     background-size: cover;
     animation-name: bgmote;
     animation-duration: 15s;
-    animation-iteration-count: infinite; */
-    min-height: 40vh;
+    animation-iteration-count: infinite;
+    min-height: 40vh; */
   }
   /* @media (max-width: 768px) {
     .movebg-par {
