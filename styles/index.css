@@ -2943,9 +2943,7 @@ section.gallery-section-2 {
   animation-iteration-count: infinite; */
   overflow: visible;
   background-image: url(../images/bgs/webp/stars.webp);
-  background-repeat: no-repeat;
   background-position: center top;
-  background-size: cover;
 }
 @media (max-width: 768px) {
   section.gallery-section-2 {
