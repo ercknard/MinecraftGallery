@@ -1650,7 +1650,7 @@ x:-o-prefocus, .hr-animated:after {
 }
 @keyframes hrmonated {
   0% {
-     background-color:transparent;
+     background-color:transparent; transform: rotate(0);
  }
   20% {
      background-color:transparent;
@@ -1671,7 +1671,7 @@ x:-o-prefocus, .hr-animated:after {
      background-color:transparent;
  }
   100% {
-     background-color:transparent;
+     background-color:transparent; transform: rotate(360deg);
  }
 }
 @keyframes hrmonate {
