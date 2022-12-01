@@ -12,6 +12,7 @@ a {
   text-decoration: none;
 }
 html {
+  overflow-x: hidden;
   font-family: myFirstFont, Garamond, serif;
   font-size: 1rem;
   animation-name: htmlcanva;
@@ -62,6 +63,9 @@ h5 {
       animation-duration: 20s;
       animation-name: none;
  }
+}
+body {
+  overflow: hidden;
 }
 body.movebg {
   background-color: black;
