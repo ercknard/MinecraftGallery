@@ -1347,6 +1347,7 @@ span.found-center-2-1{
   align-items: center;
   justify-content: center;
   display: none;
+  width: 100%;
 }
 @media (max-width: 768px) {
   span.found-center-2 {
