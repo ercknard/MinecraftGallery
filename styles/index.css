@@ -2561,8 +2561,8 @@ header.nav-fixed {
  }
 }
 .scale-in-hor-center {
-  -webkit-animation: flicker-in .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: flicker-in .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: fade .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: fade .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 @-webkit-keyframes scale-in-hor-center {
   0% {
