@@ -2614,9 +2614,12 @@ header.nav-fixed {
   width: 30%;
   border: 20px solid;
   border-image: url(../images/extras/webp/border.png) 40;
+  box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 1);
   animation-name: tile-anim-img;
   animation-duration: 15s;
   animation-iteration-count: infinite;
+  z-index: -1;
+  background-color: black;
 }
 @keyframes tile-anim-img {
   0% {
@@ -2677,8 +2680,8 @@ header.nav-fixed {
   background-color: rgba(0, 0, 0, .5);
   text-align: center;
   padding: 10px;
-  border: 10px solid;
-  border-image: url(../images/extras/webp/border.png) 30 stretch;
+  /* border: 10px solid;
+  border-image: url(../images/extras/webp/border.png) 30 stretch; */
 }
 .icon-tile {
   display: flex;
@@ -2742,7 +2745,7 @@ header.nav-fixed {
   border: 10px solid;
   border-image: url(../images/extras/webp/border.png) 30 stretch;
   background-color: black;
-  box-sh5dow: 0px 0px 50px 10px rgba(245, 222, 179, .2);
+  box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 1);
   width: 100%;
   padding: 10px;
   margin-top: 5px;
@@ -2775,7 +2778,7 @@ header.nav-fixed {
  }
 }
 .elements-1-2-3s:hover {
-  filter: drop-shadow(0px 0px 30px rgba(225, 225, 225, 1));
+  box-shadow:0px 0px 100px rgba(225, 225, 225, 1);
   opacity: 1;
   animation-name: shakess;
   animation-duration: 2s;
